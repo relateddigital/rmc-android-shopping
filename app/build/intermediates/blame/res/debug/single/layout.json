@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_product_detail.xml",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_product_detail.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shipping.xml",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_shipping.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_basket.xml",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_basket.xml"
+    }
+]
