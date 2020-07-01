@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "523544468537",
+    "firebase_url": "https://android-shopping-e6692.firebaseio.com",
+    "project_id": "android-shopping-e6692",
+    "storage_bucket": "android-shopping-e6692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523544468537:android:23876e81bc62c7e7f301e8",
+        "android_client_info": {
+          "package_name": "com.relateddigital.shoppingdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523544468537-l34ecb0pfr8f54kh6umeb3d7p3bgfo8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZa3MAIE4Y7tb-dBDMTIf0cryklV-B3GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523544468537-l34ecb0pfr8f54kh6umeb3d7p3bgfo8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

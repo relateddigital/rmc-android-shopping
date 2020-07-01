@@ -5,7 +5,7 @@
     <data>
         <variable
             name="fragment"
-            type="com.melikeey.shoppingdemo.tabs.HomeFragment" />
+            type="com.relateddigital.shoppingdemo.tabs.HomeFragment" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

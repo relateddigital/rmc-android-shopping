@@ -1,23 +1,23 @@
 [
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_item_home.xml.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/item_home.xml"
     },
     {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_item_home.xml.flat",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/item_home.xml"
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/drawable-v24_samsung.jpeg.flat",
@@ -36,12 +36,12 @@
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_profile.xml"
-    },
-    {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/drawable_ic_baseline_shopping_cart_24.xml.flat",
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_profile.xml"
     },
     {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_fragment_register.xml.flat",
@@ -72,12 +72,12 @@
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_login.xml"
-    },
-    {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/drawable-v24_playstation.png.flat",
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/drawable-v24/playstation.png"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_login.xml"
     },
     {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

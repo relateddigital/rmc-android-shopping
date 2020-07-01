@@ -5,7 +5,7 @@
 
         <variable
             name="fragment"
-            type="com.melikeey.shoppingdemo.fragments.ShippingFragment" />
+            type="com.relateddigital.shoppingdemo.fragments.ShippingFragment" />
     </data>
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
