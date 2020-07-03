@@ -1,5 +1,6 @@
 package com.relateddigital.shoppingdemo.adapters;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.relateddigital.shoppingdem.R;
+import com.relateddigital.shoppingdemo.Utils;
 import com.relateddigital.shoppingdemo.model.Product;
 import com.relateddigital.shoppingdemo.fragments.ProductDetailFragment;
 
@@ -25,10 +27,11 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
     private List<Product> productList;
     AppCompatActivity activity;
+    Product product;
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
         //each data item is just a string in this case
-        public TextView tvRank, tvName, tvContent;
+        public TextView tvRank, tvName, tvContent, tvPrice;
         Button btnBasket;
         public ImageView ivProduct;
         CardView cardView;
@@ -37,15 +40,17 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             super(v);
             tvRank = v.findViewById(R.id.tv_rank);
             tvName = v.findViewById(R.id.tv_product_name);
+            tvPrice = v.findViewById(R.id.tv_price);
             tvContent = v.findViewById(R.id.tv_product_content);
-            btnBasket = v.findViewById(R.id.tv_add_basket);
+            btnBasket = v.findViewById(R.id.btn_add_basket);
             ivProduct = v.findViewById(R.id.iv_home_product);
             cardView = v.findViewById(R.id.card_view);
+
             activity = (AppCompatActivity) v.getContext();
         }
     }
 
-    public HomeAdapter(List<Product> productList){
+    public HomeAdapter(List<Product> productList) {
         this.productList = productList;
     }
 
@@ -53,24 +58,26 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     @Override
     public HomeAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_home,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_home, parent, false);
 
         return new ViewHolder(v);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(final HomeAdapter.ViewHolder holder, int position) {
 
-        final Product product = productList.get(position);
+        product = productList.get(position);
         holder.tvRank.setText("DEMO");
         holder.tvName.setText(product.getName());
         holder.tvContent.setText(product.getContent());
         holder.ivProduct.setImageResource(product.getPic());
+        holder.tvPrice.setText(product.getPrice());
 
         holder.btnBasket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(activity, "Sepete Eklendi", Toast.LENGTH_LONG).show();
+                Utils.showMessage("Sepete Eklendi", v.getContext());
             }
         });
 
@@ -80,7 +87,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
                 Fragment productDetailFragment = new ProductDetailFragment();
                 Bundle bundle = new Bundle();
-                bundle.putSerializable("product",  product);
+                bundle.putSerializable("product", product);
                 productDetailFragment.setArguments(bundle);
 
                 activity.getSupportFragmentManager().beginTransaction()

@@ -1,45 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:background="#fefefe"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_margin="60dp"
-        android:src="@android:drawable/star_big_off" />
+    <data>
+        <variable
+            name="fragment"
+            type="com.relateddigital.shoppingdemo.fragments.RegisterFragment" />
+    </data>
 
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="test@test.com" />
+        android:layout_height="match_parent"
+        android:background="#fefefe"
+        android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:inputType="numberPassword"
-        android:text="123" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="60dp"
+            android:src="@drawable/ic_baseline_toys_24"
+            android:contentDescription="@string/logo" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:inputType="numberPassword"
-        android:text="123" />
+        <EditText
+            android:autofillHints="@string/email"
+            android:inputType="text"
+            tools:ignore="LabelFor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/test_email" />
 
+        <EditText
+            android:autofillHints="@string/email"
+            tools:ignore="LabelFor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="numberPassword"
+            android:text="@string/test_psw" />
 
-    <Button
-        android:id="@+id/btn_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:background="@color/colorAccent"
-        android:text="Kayıt Ol"
-        android:textColor="#fff" />
+        <EditText
+            android:autofillHints="@string/email"
+            tools:ignore="LabelFor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="numberPassword"
+            android:text="@string/test_psw" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorAccent"
+            android:text="@string/kayit_ol"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</layout>

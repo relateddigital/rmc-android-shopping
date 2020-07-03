@@ -13,7 +13,13 @@ import androidx.fragment.app.Fragment;
 
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentProductDetailBinding;
+import com.relateddigital.shoppingdemo.Utils;
 import com.relateddigital.shoppingdemo.model.Product;
+import com.visilabs.Visilabs;
+
+import java.util.HashMap;
+import java.util.Objects;
+import java.util.UUID;
 
 public class ProductDetailFragment extends Fragment {
 
@@ -22,18 +28,21 @@ public class ProductDetailFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_product_detail, container, false);
 
-        Product product = (Product)  getArguments().getSerializable("product");
+        Product product = (Product) Objects.requireNonNull(getArguments()).getSerializable("product");
 
-        mBinding.tvProductName.setText(product.getName());
-        mBinding.tvProductContent.setText(product.getContent());
-        mBinding.ivProduct.setBackgroundResource(product.getPic());
+        HashMap<String, String> parameters = new HashMap<>();
+        parameters.put("OM.pv", Objects.requireNonNull(product).getId());
+        parameters.put("OM.pn", product.getName());
+        parameters.put("OM.ppr", product.getPrice());
+        Visilabs.CallAPI().customEvent("Product View", parameters);
 
         mBinding.btnBasket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "Sepete Eklendi", Toast.LENGTH_LONG).show();
+                Utils.showMessage("Sepete Eklendi", getActivity());
             }
         });
 

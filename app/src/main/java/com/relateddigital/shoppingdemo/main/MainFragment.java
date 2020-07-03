@@ -5,36 +5,37 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
+import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
 import com.relateddigital.shoppingdem.R;
+import com.relateddigital.shoppingdem.databinding.FragmentMainBinding;
+import com.relateddigital.shoppingdemo.Utils;
 import com.relateddigital.shoppingdemo.fragments.LoginFragment;
-import com.relateddigital.shoppingdemo.fragments.SharedPref;
+import com.relateddigital.shoppingdemo.SharedPref;
 import com.relateddigital.shoppingdemo.tabs.HomeFragment;
+
+import java.util.Objects;
 
 public class MainFragment extends Fragment {
 
     SharedPref sharedPref;
+
+    FragmentMainBinding mBinding;
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_main, container, false);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_main, container, false);
 
         sharedPref = new SharedPref(getActivity());
 
-        if (sharedPref.getInt("login")== 1) {
-            Fragment homeFragment = new HomeFragment();
-            getActivity().getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, homeFragment, "home")
-                    .addToBackStack(null)
-                    .commit();
+        if (sharedPref.getBool("login")) {
+            Utils.openFragment(new HomeFragment(), Objects.requireNonNull(getActivity()), "home");
         } else {
-            Fragment loginFragment = new LoginFragment();
-            getActivity().getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, loginFragment, "main")
-                    .addToBackStack(null)
-                    .commit();
+            Utils.openFragment(new LoginFragment(), Objects.requireNonNull(getActivity()), "login");
         }
 
-        return view;
+        return mBinding.getRoot();
     }
 }

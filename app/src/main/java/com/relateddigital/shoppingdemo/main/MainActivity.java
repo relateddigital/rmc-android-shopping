@@ -2,6 +2,7 @@ package com.relateddigital.shoppingdemo.main;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
@@ -12,8 +13,11 @@ import android.view.MenuItem;
 
 import com.google.android.material.tabs.TabLayout;
 import com.relateddigital.shoppingdem.R;
+import com.relateddigital.shoppingdem.databinding.ActivityMainBinding;
 import com.relateddigital.shoppingdemo.adapters.TabAdapter;
 import com.relateddigital.shoppingdemo.fragments.ProfileFragment;
+
+import java.util.Objects;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
     TabAdapter tabAdapter;
+
+    ActivityMainBinding mainBinding;
 
     private int[] icons = {
             R.drawable.ic_baseline_home_24,
@@ -30,29 +36,31 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        mainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        tabLayout = findViewById(R.id.tabLayout);
-        viewPager = findViewById(R.id.viewPager);
+        setUpTabs();
+    }
 
-        tabLayout.addTab(tabLayout.newTab().setText(""));
-        tabLayout.addTab(tabLayout.newTab().setText(""));
+    private void setUpTabs() {
 
-        for (int i = 0; i < tabLayout.getTabCount(); i++) {
-            tabLayout.getTabAt(i).setIcon(icons[i]);
+        mainBinding.tabLayout.addTab(mainBinding.tabLayout.newTab().setText(""));
+        mainBinding.tabLayout.addTab(mainBinding.tabLayout.newTab().setText(""));
+
+        for (int i = 0; i < mainBinding.tabLayout.getTabCount(); i++) {
+            Objects.requireNonNull(mainBinding.tabLayout.getTabAt(i)).setIcon(icons[i]);
         }
 
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        mainBinding.tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        tabAdapter = new TabAdapter(0, getSupportFragmentManager(), tabLayout.getTabCount());
-        viewPager.setAdapter(tabAdapter);
+        tabAdapter = new TabAdapter(0, getSupportFragmentManager(), mainBinding.tabLayout.getTabCount());
+        mainBinding.viewPager.setAdapter(tabAdapter);
 
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+        mainBinding.viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mainBinding.tabLayout));
 
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+        mainBinding.tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                viewPager.setCurrentItem(tab.getPosition());
+                mainBinding.viewPager.setCurrentItem(tab.getPosition());
             }
 
             @Override
@@ -72,22 +80,16 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
-
-        // return true so that the menu pop up is opened
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-
-            case R.id.menu:
-                Fragment loginFragment = new ProfileFragment();
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.container, loginFragment, "main")
-                        .addToBackStack(null)
-                        .commit();
-                break;
+        if (item.getItemId() == R.id.menu) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.container, new ProfileFragment(), "profile")
+                    .addToBackStack(null)
+                    .commit();
         }
         return super.onOptionsItemSelected(item);
     }

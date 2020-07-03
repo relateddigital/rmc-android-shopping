@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Shopping Demo</string>
+    <string name="logo">logo</string>
+    <string name="test_email">test@test.com</string>
+    <string name="test_psw">123</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="email">email</string>
+    <string name="sepete_ekle">Sepete Ekle</string>
+    <string name="iv_home">iv_home</string>
 </resources>

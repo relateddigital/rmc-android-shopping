@@ -13,6 +13,8 @@ import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentProfileBinding;
+import com.relateddigital.shoppingdemo.SharedPref;
+import com.relateddigital.shoppingdemo.Utils;
 import com.relateddigital.shoppingdemo.main.MainActivity;
 
 public class ProfileFragment extends Fragment {
@@ -34,17 +36,21 @@ public class ProfileFragment extends Fragment {
         mBinding.btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Toast.makeText(getActivity(), "Çıkış Yapıldı", Toast.LENGTH_LONG).show();
-
-                sharedPref.setStr("email", "");
-                sharedPref.setInt("login", 0);
-
-                Intent intent = new Intent(getActivity(), MainActivity.class);
-                startActivity(intent);
+                logoutAction();
             }
         });
 
         return mBinding.getRoot();
+    }
+
+    private void logoutAction() {
+
+        Utils.showMessage("Çıkış Yapıldı", getActivity());
+
+        sharedPref.setStr("email", "");
+        sharedPref.setBool("login", false);
+
+        Intent intent = new Intent(getActivity(), MainActivity.class);
+        startActivity(intent);
     }
 }

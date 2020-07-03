@@ -32,6 +32,10 @@
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/drawable/ic_baseline_home_24.xml"
     },
     {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/activity_main.xml"
     },

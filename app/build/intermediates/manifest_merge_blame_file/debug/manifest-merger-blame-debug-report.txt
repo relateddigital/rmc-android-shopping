@@ -92,175 +92,199 @@
 44-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:11:9-53
 45        android:label="@string/app_name"
 45-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:12:9-41
-46        android:roundIcon="@drawable/ic_baseline_toys_24"
-46-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:13:9-58
-47        android:supportsRtl="true"
-47-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:14:9-35
-48        android:testOnly="true"
-49        android:theme="@style/AppTheme" >
-49-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:15:9-40
-50        <activity android:name="com.relateddigital.shoppingdemo.main.MainActivity" >
-50-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:18:9-24:20
-50-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:18:19-83
-51            <intent-filter>
-51-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:19:13-23:29
-52                <action android:name="android.intent.action.MAIN" />
-52-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:20:17-69
-52-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:20:25-66
-53
-54                <category android:name="android.intent.category.LAUNCHER" />
-54-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:22:17-77
-54-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:22:27-74
-55            </intent-filter>
-56        </activity>
-57
-58        <service
-58-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:26:9-32:19
-59            android:name="euromsg.com.euromobileandroid.service.EuroFirebaseMessagingService"
-59-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:27:13-94
-60            android:exported="false" >
-60-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:28:13-37
-61            <intent-filter>
-61-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:29:13-31:29
-62                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-62-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:17-78
-62-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:25-75
-63            </intent-filter>
-64        </service>
-65
-66        <receiver
-66-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:15:9-18:39
-67            android:name="euromsg.com.euromobileandroid.notification.carousel.CarouselEventReceiver"
-67-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:16:13-101
-68            android:enabled="true"
-68-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:17:13-35
-69            android:exported="true" />
-69-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:18:13-36
-70        <!--
-71             FirebaseMessagingService performs security checks at runtime,
-72             but set to not exported to explicitly avoid allowing another app to call it.
-73        -->
-74        <service
-74-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:28:9-35:19
-75            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-75-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:29:13-82
-76            android:directBootAware="true"
-76-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:30:13-43
-77            android:exported="false" >
-77-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:31:13-37
-78            <intent-filter android:priority="-500" >
-78-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:29:13-31:29
-79                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-79-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:17-78
-79-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:25-75
-80            </intent-filter>
-81        </service>
+46        android:networkSecurityConfig="@xml/network_security_config"
+46-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:16:9-69
+47        android:roundIcon="@drawable/ic_baseline_toys_24"
+47-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:13:9-58
+48        android:supportsRtl="true"
+48-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:14:9-35
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme" >
+50-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:15:9-40
+51        <activity android:name="com.relateddigital.shoppingdemo.main.MainActivity" >
+51-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:18:9-24:20
+51-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:18:19-83
+52            <intent-filter>
+52-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:19:13-23:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:20:17-69
+53-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:20:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:22:17-77
+55-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:22:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:26:9-32:19
+60            android:name="euromsg.com.euromobileandroid.service.EuroFirebaseMessagingService"
+60-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:27:13-94
+61            android:exported="false" >
+61-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:28:13-37
+62            <intent-filter>
+62-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:29:13-31:29
+63                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+63-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:17-78
+63-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:25-75
+64            </intent-filter>
+65        </service>
+66
+67        <activity
+67-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:18:9-20:73
+68            android:name="com.visilabs.inApp.VisilabsInAppActivity"
+68-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:19:13-68
+69            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+69-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:20:13-70
+70        <activity
+70-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:21:9-23:73
+71            android:name="com.visilabs.inApp.TemplateActivity"
+71-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:22:13-63
+72            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+72-->[com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/1b3e359e924aa54ce77e398be3640fa5/jetified-visilabs-android-3.1.6/AndroidManifest.xml:23:13-70
+73
+74        <receiver
+74-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:15:9-18:39
+75            android:name="euromsg.com.euromobileandroid.notification.carousel.CarouselEventReceiver"
+75-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:16:13-101
+76            android:enabled="true"
+76-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:17:13-35
+77            android:exported="true" />
+77-->[com.euromsg:euromsg:3.1.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/8b3b58ecd8a5e431734043b3ffe6e57d/jetified-euromsg-3.1.2/AndroidManifest.xml:18:13-36
+78        <!--
+79             FirebaseMessagingService performs security checks at runtime,
+80             but set to not exported to explicitly avoid allowing another app to call it.
+81        -->
 82        <service
-82-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:36:9-42:19
-83            android:name="com.google.firebase.components.ComponentDiscoveryService"
-83-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:37:13-84
+82-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:28:9-35:19
+83            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+83-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:29:13-82
 84            android:directBootAware="true"
-84-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+84-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:30:13-43
 85            android:exported="false" >
-85-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:38:13-37
-86            <meta-data
-86-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:39:13-41:85
-87                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-87-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:40:17-119
-88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:41:17-82
-89            <meta-data
-89-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:32:13-34:85
-90                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-90-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:33:17-96
-91                android:value="com.google.firebase.components.ComponentRegistrar" />
-91-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:34:17-82
-92            <meta-data
-92-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/5306169e9b9062d38fa263bfb2c928d9/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
-93                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-93-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/5306169e9b9062d38fa263bfb2c928d9/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
-94                android:value="com.google.firebase.components.ComponentRegistrar" />
-94-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/5306169e9b9062d38fa263bfb2c928d9/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
-95            <meta-data
-95-->[com.google.firebase:firebase-installations:16.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/a52077055430ed337fe49580c0b92fee/jetified-firebase-installations-16.3.1/AndroidManifest.xml:17:13-19:85
-96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-96-->[com.google.firebase:firebase-installations:16.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/a52077055430ed337fe49580c0b92fee/jetified-firebase-installations-16.3.1/AndroidManifest.xml:18:17-127
-97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-installations:16.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/a52077055430ed337fe49580c0b92fee/jetified-firebase-installations-16.3.1/AndroidManifest.xml:19:17-82
-98        </service>
-99
-100        <receiver
-100-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:37:9-44:20
-101            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-101-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:38:13-78
-102            android:exported="true"
-102-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:39:13-36
-103            android:permission="com.google.android.c2dm.permission.SEND" >
-103-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:40:13-73
-104            <intent-filter>
-104-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:41:13-43:29
-105                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-105-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:17-81
-105-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:25-78
-106            </intent-filter>
-107        </receiver>
-108
-109        <provider
-109-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-110            android:name="com.google.firebase.provider.FirebaseInitProvider"
-110-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-111            android:authorities="com.relateddigital.shoppingdemo.firebaseinitprovider"
-111-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-112            android:exported="false"
-112-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-113            android:initOrder="100" />
-113-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-114
-115        <activity
-115-->[com.google.android.gms:play-services-base:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-116-->[com.google.android.gms:play-services-base:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-117            android:exported="false"
-117-->[com.google.android.gms:play-services-base:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-118-->[com.google.android.gms:play-services-base:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d7df73591dc571468c186fdd2a992bad/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-119
-120        <meta-data
-120-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-121            android:name="com.google.android.gms.version"
-121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-122            android:value="@integer/google_play_services_version" />
-122-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-123
-124        <service
-124-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
-125            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-125-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
-126            android:exported="false" >
-126-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
-127            <meta-data
-127-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
-128                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-128-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
-129                android:value="cct" />
-129-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
-130        </service>
-131        <service
-131-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
-132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-132-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
-133            android:exported="false"
-133-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
-134            android:permission="android.permission.BIND_JOB_SERVICE" >
-134-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
-135        </service>
+85-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:31:13-37
+86            <intent-filter android:priority="-500" >
+86-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:29:13-31:29
+87                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+87-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:17-78
+87-->/Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:30:25-75
+88            </intent-filter>
+89        </service>
+90        <service
+90-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:36:9-42:19
+91            android:name="com.google.firebase.components.ComponentDiscoveryService"
+91-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:37:13-84
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:38:13-37
+94            <meta-data
+94-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:39:13-41:85
+95                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+95-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:40:17-119
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-messaging:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/caf44f81c90b546a4603b0bbe2895730/jetified-firebase-messaging-20.2.0/AndroidManifest.xml:41:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+98-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:33:17-96
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/5306169e9b9062d38fa263bfb2c928d9/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+101                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+101-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/5306169e9b9062d38fa263bfb2c928d9/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/5306169e9b9062d38fa263bfb2c928d9/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-installations:16.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/a52077055430ed337fe49580c0b92fee/jetified-firebase-installations-16.3.1/AndroidManifest.xml:17:13-19:85
+104                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+104-->[com.google.firebase:firebase-installations:16.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/a52077055430ed337fe49580c0b92fee/jetified-firebase-installations-16.3.1/AndroidManifest.xml:18:17-127
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-installations:16.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/a52077055430ed337fe49580c0b92fee/jetified-firebase-installations-16.3.1/AndroidManifest.xml:19:17-82
+106        </service>
+107
+108        <receiver
+108-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:37:9-44:20
+109            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+109-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:38:13-78
+110            android:exported="true"
+110-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:39:13-36
+111            android:permission="com.google.android.c2dm.permission.SEND" >
+111-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:40:13-73
+112            <intent-filter>
+112-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:41:13-43:29
+113                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+113-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:17-81
+113-->[com.google.firebase:firebase-iid:20.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ce5563b3cedb79e1ec3b1a093858f145/jetified-firebase-iid-20.2.0/AndroidManifest.xml:42:25-78
+114            </intent-filter>
+115        </receiver>
+116
+117        <activity
+117-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/78b13228d1b7806e4595749364e08dfc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+118-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/78b13228d1b7806e4595749364e08dfc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/78b13228d1b7806e4595749364e08dfc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/78b13228d1b7806e4595749364e08dfc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+121
+122        <provider
+122-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+123            android:name="com.google.firebase.provider.FirebaseInitProvider"
+123-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+124            android:authorities="com.relateddigital.shoppingdemo.firebaseinitprovider"
+124-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+125            android:exported="false"
+125-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+126            android:initOrder="100" />
+126-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f50104a3ed305ca2fc55bd80a29800d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad072bd06501b4ced252e97ed9ee745e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+131
+132        <provider
+132-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/90474ee33df03b78db59a910f0859498/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+133            android:name="com.squareup.picasso.PicassoProvider"
+133-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/90474ee33df03b78db59a910f0859498/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+134            android:authorities="com.relateddigital.shoppingdemo.com.squareup.picasso"
+134-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/90474ee33df03b78db59a910f0859498/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+135            android:exported="false" />
+135-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/90474ee33df03b78db59a910f0859498/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 136
-137        <receiver
-137-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
-138            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-138-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
-139            android:exported="false" />
-139-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
-140    </application>
-141
-142</manifest>
+137        <service
+137-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+138            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+138-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+139            android:exported="false" >
+139-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+140            <meta-data
+140-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+141                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+141-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+142                android:value="cct" />
+142-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d5a682cedb4d3857fe701725736f7c97/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+143        </service>
+144        <service
+144-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+145            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+145-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+146            android:exported="false"
+146-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+147            android:permission="android.permission.BIND_JOB_SERVICE" >
+147-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+148        </service>
+149
+150        <receiver
+150-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+151            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+151-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+152            android:exported="false" />
+152-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/59f77f167f08297046aaa1a76f60e3e2/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+153    </application>
+154
+155</manifest>
