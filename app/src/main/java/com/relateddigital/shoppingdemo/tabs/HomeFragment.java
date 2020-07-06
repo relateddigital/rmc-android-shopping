@@ -10,13 +10,24 @@ import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentHomeBinding;
+import com.relateddigital.shoppingdemo.OnItemClickListener;
+import com.relateddigital.shoppingdemo.TestJson;
+import com.relateddigital.shoppingdemo.fragments.ProductDetailFragment;
 import com.relateddigital.shoppingdemo.model.Product;
 import com.relateddigital.shoppingdemo.adapters.HomeAdapter;
 import com.visilabs.Visilabs;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.w3c.dom.NameList;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -25,7 +36,6 @@ public class HomeFragment extends Fragment {
     List<Product> productList;
 
     FragmentHomeBinding mBinding;
-
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -42,17 +52,44 @@ public class HomeFragment extends Fragment {
         mBinding.recyclerView.setAdapter(homeAdapter);
         homeAdapter.notifyDataSetChanged();
 
+        homeAdapter.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(Product product) {
+
+                Fragment productDetailFragment = new ProductDetailFragment();
+
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.container, productDetailFragment, "product")
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
         return mBinding.getRoot();
     }
 
     public List<Product> getProductList() {
 
+
         productList = new ArrayList<>();
-        productList.add(new Product(10, "Bilgisayar", "Macbook", R.drawable.bilgisayar,"15000TL"));
-        productList.add(new Product(20, "Tablet", "Samsung", R.drawable.samsung, "1000TL"));
-        productList.add(new Product(30,"Telefon", "Huawei", R.drawable.huawei, "5000TL"));
-        productList.add(new Product(50, "Oyun Konsolu", "Playstation", R.drawable.playstation, "5000TL"));
-        productList.add(new Product(60, "Kulaklık", "Airpods", R.drawable.airpods, "1000TL"));
+        try {
+            JSONArray jsonArray = new JSONArray(TestJson.test);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i); //0 for just retrieving first object you can loop it
+                String id = obj.getString("ID");
+                String name = obj.getString("Name");
+                String image = obj.getString("Image");
+                String brand = obj.getString("Brand");
+                String price = obj.getString("DiscountedPrice");
+
+                productList.add(new Product(id, name, brand, image, price));
+            }
+
+            //Similarly do it for others as well
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
 
         return productList;
     }

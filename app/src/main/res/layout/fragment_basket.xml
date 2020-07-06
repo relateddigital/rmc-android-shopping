@@ -61,7 +61,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tv_product_content"
+                        android:id="@+id/tv_product_brand"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="10dp" />

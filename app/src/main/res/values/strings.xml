@@ -8,4 +8,7 @@
     <string name="email">email</string>
     <string name="sepete_ekle">Sepete Ekle</string>
     <string name="iv_home">iv_home</string>
+    <string name="_1_adet">2 Adet</string>
+    <string name="detail">Detail</string>
+    <string name="bu_r_n_statik_bir_demo_r_n_d_r">Bu ürün statik bir demo ürünüdür</string>
 </resources>

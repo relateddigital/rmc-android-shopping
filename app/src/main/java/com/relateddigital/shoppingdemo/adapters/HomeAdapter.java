@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,9 +16,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.relateddigital.shoppingdem.R;
+import com.relateddigital.shoppingdemo.OnItemClickListener;
 import com.relateddigital.shoppingdemo.Utils;
 import com.relateddigital.shoppingdemo.model.Product;
 import com.relateddigital.shoppingdemo.fragments.ProductDetailFragment;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -41,7 +42,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             tvRank = v.findViewById(R.id.tv_rank);
             tvName = v.findViewById(R.id.tv_product_name);
             tvPrice = v.findViewById(R.id.tv_price);
-            tvContent = v.findViewById(R.id.tv_product_content);
+            tvContent = v.findViewById(R.id.tv_product_brand);
             btnBasket = v.findViewById(R.id.btn_add_basket);
             ivProduct = v.findViewById(R.id.iv_home_product);
             cardView = v.findViewById(R.id.card_view);
@@ -63,6 +64,12 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         return new ViewHolder(v);
     }
 
+    private OnItemClickListener mOnItemClickListener;
+
+    public void setOnItemClickListener(final OnItemClickListener mItemClickListener) {
+        this.mOnItemClickListener = mItemClickListener;
+    }
+
     @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(final HomeAdapter.ViewHolder holder, int position) {
@@ -70,9 +77,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         product = productList.get(position);
         holder.tvRank.setText("DEMO");
         holder.tvName.setText(product.getName());
-        holder.tvContent.setText(product.getContent());
-        holder.ivProduct.setImageResource(product.getPic());
-        holder.tvPrice.setText(product.getPrice());
+        holder.tvContent.setText(product.getBrand());
+        Picasso.get().load(product.getImage()).into(holder.ivProduct);
+        holder.tvPrice.setText(product.getPrice() + "TL");
 
         holder.btnBasket.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,19 +88,12 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             }
         });
 
-        holder.cardView.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
-                Fragment productDetailFragment = new ProductDetailFragment();
-                Bundle bundle = new Bundle();
-                bundle.putSerializable("product", product);
-                productDetailFragment.setArguments(bundle);
-
-                activity.getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.container, productDetailFragment, "home")
-                        .addToBackStack(null)
-                        .commit();
+            public void onClick(View view) {
+                if (mOnItemClickListener != null) {
+                    mOnItemClickListener.onItemClick(product);
+                }
             }
         });
     }

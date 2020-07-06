@@ -1799,7 +1799,7 @@ id tv_info
 id tv_left_description_text
 id tv_left_title_text
 id tv_price
-id tv_product_content
+id tv_product_brand
 id tv_product_name
 id tv_rank
 id tv_right_description_text
@@ -1965,6 +1965,7 @@ menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string _1_adet
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1995,6 +1996,7 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string bu_r_n_statik_bir_demo_r_n_d_r
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2022,6 +2024,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string detail
 string email
 string error_icon_content_description
 string exposed_dropdown_menu_content_description

@@ -6,41 +6,41 @@ import java.io.Serializable;
 
 public class Product implements Serializable {
 
-    private String name, content, price;
-    private int pic, id;
+    private String Name, Brand, price;
+    private String Image, ID;
 
-    public Product(int id, String name, String content, int pic, String price){
+    public Product(String ID, String name, String Brand, String  Image, String DiscountedPrice){
 
-        this.id = id;
-        this.name = name;
-        this.content = content;
-        this.pic = pic;
-        this.price = price;
+        this.ID = ID;
+        this.Name = name;
+        this.Brand = Brand;
+        this.Image = Image;
+        this.price = DiscountedPrice;
 
     }
 
     public String getName() {
-        return name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.Name = name;
     }
 
-    public int getPic() {
-        return pic;
+    public String getImage() {
+        return Image;
     }
 
-    public void setPic(int pic) {
-        this.pic = pic;
+    public void setImage(String  image) {
+        this.Image = image;
     }
 
-    public String getContent() {
-        return content;
+    public String getBrand() {
+        return Brand;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setBrand(String brand) {
+        this.Brand = brand;
     }
 
     public String getPrice() {
@@ -52,11 +52,11 @@ public class Product implements Serializable {
     }
 
 
-    public String getId() {
-        return String.valueOf(id);
+    public String getID() {
+        return String.valueOf(ID);
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setID(String  ID) {
+        this.ID = ID;
     }
 }

@@ -48,7 +48,7 @@ public class ProfileFragment extends Fragment {
         Utils.showMessage("Çıkış Yapıldı", getActivity());
 
         sharedPref.setStr("email", "");
-        sharedPref.setBool("login", false);
+        sharedPref.setInt("login", 0);
 
         Intent intent = new Intent(getActivity(), MainActivity.class);
         startActivity(intent);

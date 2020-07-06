@@ -16,6 +16,7 @@ import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentBasketBinding;
 import com.relateddigital.shoppingdemo.Utils;
 import com.relateddigital.shoppingdemo.fragments.ShippingFragment;
+import com.squareup.picasso.Picasso;
 import com.visilabs.Visilabs;
 
 import java.util.HashMap;
@@ -31,15 +32,15 @@ public class BasketFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_basket, container, false);
 
-        mBinding.tvProductContent.setText("Bilgisayar");
-        mBinding.tvProductName.setText("Macbook");
-        mBinding.ivProduct.setBackgroundResource(R.drawable.bilgisayar);
+        mBinding.tvProductBrand.setText("Kozmo");
+        mBinding.tvProductName.setText("Nectarine Blossom & Honey Body & Hand Lotion");
+        Picasso.get().load("http://kodblogu.net/one2one/1.jpg").into(mBinding.ivProduct);
 
         HashMap<String, String> parameters= new HashMap<>();
         parameters.put("OM.pbid", String.valueOf(UUID.randomUUID()));
-        parameters.put("OM.pb", "10;20");
-        parameters.put("OM.pu","2;2");
-        parameters.put("OM.ppr","30000;2000");
+        parameters.put("OM.pb", "77");
+        parameters.put("OM.pu","2");
+        parameters.put("OM.ppr","78");
         Visilabs.CallAPI().customEvent("Cart", parameters);
 
         mBinding.btnPay.setOnClickListener(new View.OnClickListener() {
@@ -50,9 +51,9 @@ public class BasketFragment extends Fragment {
 
                 HashMap<String, String> parameters= new HashMap<>();
                 parameters.put("OM.tid","1234568");
-                parameters.put("OM.pp","10;20");
-                parameters.put("OM.pu","2;2");
-                parameters.put("OM.ppr","30000;2000");
+                parameters.put("OM.pb", "77");
+                parameters.put("OM.pu","2");
+                parameters.put("OM.ppr","78");
                 Visilabs.CallAPI().customEvent("Product Purchase", parameters);
 
             }
@@ -61,6 +62,11 @@ public class BasketFragment extends Fragment {
     }
 
     private void payAction() {
-        Utils.openFragment(new ShippingFragment(), Objects.requireNonNull(getActivity()), "shipping");
+
+        Fragment shippingFragment = new ShippingFragment();
+        FragmentManager manager = getChildFragmentManager();
+        FragmentTransaction ft = manager.beginTransaction();
+        ft.replace(R.id.container, shippingFragment);
+        ft.commit();
     }
 }

@@ -30,7 +30,7 @@ public class MainFragment extends Fragment {
 
         sharedPref = new SharedPref(getActivity());
 
-        if (sharedPref.getBool("login")) {
+       if (sharedPref.getInt("login") == 1) {
             Utils.openFragment(new HomeFragment(), Objects.requireNonNull(getActivity()), "home");
         } else {
             Utils.openFragment(new LoginFragment(), Objects.requireNonNull(getActivity()), "login");

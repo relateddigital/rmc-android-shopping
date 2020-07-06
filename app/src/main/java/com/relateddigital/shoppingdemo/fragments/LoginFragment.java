@@ -19,6 +19,8 @@ import com.visilabs.Visilabs;
 
 import java.util.Objects;
 
+import euromsg.com.euromobileandroid.EuroMobileManager;
+
 public class LoginFragment extends Fragment {
     SharedPref sharedPref;
 
@@ -70,7 +72,11 @@ public class LoginFragment extends Fragment {
         Utils.showMessage("Giriş Yapıldı", getActivity());
 
         sharedPref.setStr("email", "test@test.com");
-        sharedPref.setBool("login", true);
+        sharedPref.setInt("login", 1);
+
+        EuroMobileManager.getInstance().setEmail("test@test.com", Objects.requireNonNull(getActivity()));
+        EuroMobileManager.getInstance().sync(getActivity());
+
 
         Utils.openFragment(new HomeFragment(), Objects.requireNonNull(getActivity()), "home");
     }
