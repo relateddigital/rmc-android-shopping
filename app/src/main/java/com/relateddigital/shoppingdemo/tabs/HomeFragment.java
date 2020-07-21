@@ -1,6 +1,7 @@
 package com.relateddigital.shoppingdemo.tabs;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +36,9 @@ public class HomeFragment extends Fragment {
 
     List<Product> productList;
 
+    String TAG = "HomeFragment";
+    String NAME = "Shopping";
+
     FragmentHomeBinding mBinding;
 
     @Override
@@ -64,6 +68,8 @@ public class HomeFragment extends Fragment {
                         .commit();
             }
         });
+
+        Log.i(NAME, TAG);
 
         return mBinding.getRoot();
     }

@@ -1,0 +1,30 @@
+{
+	"agcgw":{
+		"backurl":"connect-dre.dbankcloud.cn",
+		"url":"connect-dre.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"890090000023106263",
+		"product_id":"736430079244575155",
+		"client_id":"410939596910625792",
+		"client_secret":"6B6E6908FDA93BCDC02F13E577E825964BDC5B45F4311C0931AF9973DB442456",
+		"app_id":"102596257",
+		"package_name":"com.relateddigital.shoppingdemo",
+		"api_key":"CgB6e3x99VC4Yxhe/t/lIG8HoWz2vWFgGKkDSPvEXnO1kVwSYrIS5t0GTO9TecvY+MVTMYsuIHqZPEkMw9P5o5/c"
+	},
+	"service":{
+		"analytics":{
+			"collector_url":"datacollector-dre.dt.hicloud.com,datacollector-dre.dt.dbankcloud.cn",
+			"resource_id":"p1",
+			"channel_id":""
+		},
+		"cloudstorage":{
+			"storage_url":"https://ops-dre.agcstorage.link"
+		},
+		"ml":{
+			"mlservice_url":"ml-api-dre.ai.dbankcloud.com,ml-api-dre.ai.dbankcloud.cn"
+		}
+	},
+	"region":"DE",
+	"configuration_version":"1.0"
+}

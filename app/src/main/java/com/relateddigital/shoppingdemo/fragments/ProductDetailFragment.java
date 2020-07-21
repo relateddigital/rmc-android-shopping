@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
+import com.google.gson.JsonObject;
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentProductDetailBinding;
 import com.relateddigital.shoppingdemo.Utils;
@@ -21,6 +22,7 @@ import com.visilabs.VisilabsResponse;
 import com.visilabs.api.VisilabsTargetCallback;
 import com.visilabs.api.VisilabsTargetRequest;
 import com.visilabs.json.JSONArray;
+import com.visilabs.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Objects;
@@ -28,6 +30,9 @@ import java.util.Objects;
 public class ProductDetailFragment extends Fragment {
 
     FragmentProductDetailBinding mBinding;
+
+    String TAG = "ProductDetailFragment";
+    String NAME = "Shopping";
 
     @Nullable
     @Override
@@ -54,6 +59,8 @@ public class ProductDetailFragment extends Fragment {
 
         getRecommendations();
 
+        Log.i(NAME, TAG);
+
         return mBinding.getRoot();
 
     }
@@ -64,6 +71,13 @@ public class ProductDetailFragment extends Fragment {
             public void success(VisilabsResponse response) {
                 try{
                     JSONArray array = response.getArray();
+
+                    for (int i = 0 ; i<array.length(); i++){
+                        JSONObject jsonObject = array.getJSONObject(i);
+                        String data = jsonObject.getString("data");
+
+
+                    }
                     if(array != null) {
                         Log.d("Success", array.length() + "");
                     }

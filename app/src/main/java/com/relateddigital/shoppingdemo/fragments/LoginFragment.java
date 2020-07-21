@@ -1,6 +1,7 @@
 package com.relateddigital.shoppingdemo.fragments;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +28,9 @@ public class LoginFragment extends Fragment {
     FragmentLoginBinding mBinding;
 
     String email;
+
+    String TAG = "LoginFragment";
+    String NAME = "Shopping";
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -58,6 +62,8 @@ public class LoginFragment extends Fragment {
             }
         });
 
+        Log.i(NAME, TAG);
+
         return mBinding.getRoot();
     }
 
@@ -74,7 +80,7 @@ public class LoginFragment extends Fragment {
         sharedPref.setStr("email", "test@test.com");
         sharedPref.setInt("login", 1);
 
-        EuroMobileManager.getInstance().setEmail("test@test.com", Objects.requireNonNull(getActivity()));
+        EuroMobileManager.getInstance().setEmail("test@test.com", getActivity());
         EuroMobileManager.getInstance().sync(getActivity());
 
 

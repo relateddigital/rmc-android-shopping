@@ -4,9 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -15,15 +18,16 @@ import com.google.android.material.tabs.TabLayout;
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.ActivityMainBinding;
 import com.relateddigital.shoppingdemo.adapters.TabAdapter;
+import com.relateddigital.shoppingdemo.fragments.ProductDetailFragment;
 import com.relateddigital.shoppingdemo.fragments.ProfileFragment;
 
 import java.util.Objects;
 
+import euromsg.com.euromobileandroid.EuroMobileManager;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    TabLayout tabLayout;
-    ViewPager viewPager;
     TabAdapter tabAdapter;
 
     ActivityMainBinding mainBinding;
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+
 
         setUpTabs();
     }
@@ -92,5 +97,26 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+ /*   @Override
+  public void onBackPressed() {
+        if (getSupportFragmentManager().getBackStackEntryCount() ==1) {
+            finish();
+        }else{
+            super.onBackPressed();
+        }
+    }
+*/
+
+        @Override
+    public void onBackPressed() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        if (fragmentManager.getBackStackEntryCount() > 1) {
+            fragmentManager.popBackStack();
+        } else {
+            super.onBackPressed();
+
+        }
     }
 }

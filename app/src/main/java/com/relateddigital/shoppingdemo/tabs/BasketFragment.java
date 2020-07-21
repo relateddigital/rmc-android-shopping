@@ -2,6 +2,7 @@ package com.relateddigital.shoppingdemo.tabs;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,6 +27,9 @@ import java.util.UUID;
 public class BasketFragment extends Fragment {
 
     FragmentBasketBinding mBinding;
+
+    String TAG = "Basketragment";
+    String NAME = "Shopping";
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -58,6 +62,9 @@ public class BasketFragment extends Fragment {
 
             }
         });
+
+        Log.i(NAME, TAG);
+
         return mBinding.getRoot();
     }
 

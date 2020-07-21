@@ -2,6 +2,7 @@ package com.relateddigital.shoppingdemo.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,9 @@ public class ShippingFragment extends Fragment {
 
     FragmentShippingBinding mBinding;
 
+    String TAG = "ShippingFragment";
+    String NAME = "Shopping";
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -33,6 +37,9 @@ public class ShippingFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        Log.i(NAME, TAG);
+
         return mBinding.getRoot();
     }
 }
