@@ -7,7 +7,7 @@ INJECTED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xm
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/03f8b8e9c24fef2c90e3e71f62522e16/databinding-adapters-4.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f04470db427f95a30daa38a862f96d1a/databinding-runtime-4.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:2:1-26:12
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:2:1-21:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad09864b7bea075326a377c70adadab6/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
@@ -89,8 +89,8 @@ INJECTED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xm
 		ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:4:5-66
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:12:5-67
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:12:5-67
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:12:5-67
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:12:5-67
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:11:5-67
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:23:5-67
@@ -107,8 +107,8 @@ MERGED from [com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/trans
 		ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:11:5-79
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:11:5-79
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:11:5-79
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:11:5-79
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:12:5-79
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:22:5-79
@@ -129,8 +129,8 @@ application
 ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:8:5-42:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:14:5-24:19
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:14:5-24:19
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:14:5-24:19
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:14:5-24:19
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:14:5-19:19
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:14:5-19:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad09864b7bea075326a377c70adadab6/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
@@ -196,7 +196,7 @@ MERGED from [com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/trans
 	android:allowBackup
 		ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:10:9-35
 	android:networkSecurityConfig
-		ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:16:9-69
+		ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:16:9-69
 	android:theme
 		ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml:15:9-40
 	android:name
@@ -249,8 +249,8 @@ MERGED from [androidx.databinding:databinding-runtime:4.0.0] /Users/melike/.grad
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f04470db427f95a30daa38a862f96d1a/databinding-runtime-4.0.0/AndroidManifest.xml:22:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:7:5-9:41
@@ -386,17 +386,17 @@ INJECTED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xm
 		ADDED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/melike/Desktop/ShoppingDemo/app/src/main/AndroidManifest.xml
 activity#com.visilabs.inApp.VisilabsInAppActivity
-ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:18:9-20:73
+ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:18:9-20:73
 	android:theme
-		ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:20:13-70
+		ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:20:13-70
 	android:name
-		ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:19:13-68
+		ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:19:13-68
 activity#com.visilabs.inApp.TemplateActivity
-ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:21:9-23:73
+ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:21:9-23:73
 	android:theme
-		ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:23:13-70
+		ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:23:13-70
 	android:name
-		ADDED from [com.visilabs.android:visilabs-android:3.1.6] /Users/melike/.gradle/caches/transforms-2/files-2.1/f73b72b17549e7126bb6037524968fad/jetified-visilabs-android-3.1.6/AndroidManifest.xml:22:13-63
+		ADDED from [com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:22:13-63
 receiver#euromsg.com.euromobileandroid.notification.carousel.CarouselEventReceiver
 ADDED from [com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:15:9-18:39
 	android:enabled

@@ -18,6 +18,7 @@ import com.relateddigital.shoppingdemo.SharedPref;
 import com.relateddigital.shoppingdemo.tabs.HomeFragment;
 import com.visilabs.Visilabs;
 
+import java.util.HashMap;
 import java.util.Objects;
 
 import euromsg.com.euromobileandroid.EuroMobileManager;
@@ -82,6 +83,11 @@ public class LoginFragment extends Fragment {
 
         EuroMobileManager.getInstance().setEmail("test@test.com", getActivity());
         EuroMobileManager.getInstance().sync(getActivity());
+
+        HashMap<String, String> parameters = new HashMap<>();
+        parameters.put("OM.exVisitorID", "ogun.ozturk@euromsg.com");
+        parameters.put("OM.sys.AppID", "visilabs-login"); //
+        Visilabs.CallAPI().customEvent("android-visilab", parameters, getActivity());
 
 
         Utils.openFragment(new HomeFragment(), Objects.requireNonNull(getActivity()), "home");

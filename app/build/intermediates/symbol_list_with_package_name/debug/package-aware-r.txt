@@ -952,6 +952,7 @@ color tooltip_background_light
 color upsdk_blue_text_007dff
 color upsdk_category_button_select_pressed
 color upsdk_white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1665,9 +1666,11 @@ id listMode
 id list_item
 id listview_background_shape
 id ll
+id ll_back
 id ll_click
 id ll_close
 id ll_container
+id ll_details
 id ll_in_app_container
 id ll_left_item_layout
 id ll_overlay
@@ -1738,7 +1741,6 @@ id recycler_view
 id right
 id right_icon
 id right_side
-id rl_iv_container
 id rounded
 id save_non_transition_alpha
 id save_overlay_view
@@ -1830,6 +1832,7 @@ id tv_body
 id tv_carousel_content
 id tv_carousel_title
 id tv_email
+id tv_favs
 id tv_in_app_subtitle
 id tv_in_app_title
 id tv_in_app_title_mini
@@ -2460,7 +2463,6 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
-style RatingBarStyle
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon

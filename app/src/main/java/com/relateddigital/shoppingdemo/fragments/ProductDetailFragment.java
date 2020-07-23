@@ -11,21 +11,22 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
-import com.google.gson.JsonObject;
+import com.google.gson.Gson;
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentProductDetailBinding;
 import com.relateddigital.shoppingdemo.Utils;
-import com.relateddigital.shoppingdemo.model.Product;
 import com.squareup.picasso.Picasso;
 import com.visilabs.Visilabs;
 import com.visilabs.VisilabsResponse;
-import com.visilabs.api.VisilabsTargetCallback;
+import com.visilabs.api.VisilabsCallback;
 import com.visilabs.api.VisilabsTargetRequest;
+import com.visilabs.favs.FavsResponse;
+import com.visilabs.inApp.VisilabsActionRequest;
 import com.visilabs.json.JSONArray;
 import com.visilabs.json.JSONObject;
+import com.visilabs.util.VisilabsConstant;
 
 import java.util.HashMap;
-import java.util.Objects;
 
 public class ProductDetailFragment extends Fragment {
 
@@ -59,14 +60,16 @@ public class ProductDetailFragment extends Fragment {
 
         getRecommendations();
 
+        getFavs();
+
         Log.i(NAME, TAG);
 
         return mBinding.getRoot();
 
     }
 
-    public VisilabsTargetCallback getCallBackVisi(){
-        VisilabsTargetCallback callback = new VisilabsTargetCallback() {
+    public VisilabsCallback getCallBackVisi(){
+        VisilabsCallback callback = new VisilabsCallback() {
             @Override
             public void success(VisilabsResponse response) {
                 try{
@@ -105,5 +108,39 @@ public class ProductDetailFragment extends Fragment {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void getFavs(){
+        try {
+            VisilabsActionRequest visilabsActionRequest = Visilabs.CallAPI().requestAction(VisilabsConstant.FavoriteAttributeAction);
+            visilabsActionRequest.executeAsyncAction(getVisilabsFavsCallback());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public VisilabsCallback getVisilabsFavsCallback() {
+
+        return new VisilabsCallback() {
+            @Override
+            public void success(VisilabsResponse response) {
+                try {
+
+                    FavsResponse favsResponse = new Gson().fromJson(response.getRawResponse(), FavsResponse.class);
+
+                    String favBrands = favsResponse.getFavoriteAttributeAction()[0].getActiondata().getFavorites().getBrand()[0];
+                    Log.i("Favs 1.Brand", favBrands);
+                    mBinding.tvFavs.setText("Favori Markalar :" + favBrands);
+
+                } catch (Exception ex) {
+                    Log.e("Error", ex.getMessage(), ex);
+                }
+            }
+
+            @Override
+            public void fail(VisilabsResponse response) {
+                Log.d("Error", response.getRawResponse());
+            }
+        };
     }
 }

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/res/merged/debug/layout_item_home.xml.flat",
