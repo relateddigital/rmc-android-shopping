@@ -89,7 +89,6 @@ public class LoginFragment extends Fragment {
         parameters.put("OM.sys.AppID", "visilabs-login"); //
         Visilabs.CallAPI().customEvent("android-visilab", parameters, getActivity());
 
-
         Utils.openFragment(new HomeFragment(), Objects.requireNonNull(getActivity()), "home");
     }
 }
