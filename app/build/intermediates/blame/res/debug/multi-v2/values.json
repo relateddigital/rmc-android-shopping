@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/res/values/values.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/values/colors.xml",
+                    "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "53",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "367"
                     },
                     "to": {
-                        "startLines": "245,246,247",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "12982,13028,13075",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "13023,13070,13121"
+                        "startLines": "1008",
+                        "startColumns": "4",
+                        "startOffsets": "73673",
+                        "endLines": "1013",
+                        "endColumns": "12",
+                        "endOffsets": "73987"
                     }
                 },
                 {
@@ -92,23 +94,6 @@
                         "endLines": "24,241,242,243,244,431,432,433,1041,2842,2845,2848,5473",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1158,12789,12851,12913,12977,25574,25631,25685,75852,192850,192976,193104,358789"
-                    }
-                },
-                {
-                    "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "10,1,12,11,7,5,9,6,2,8,3,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "429,16,514,472,293,199,385,247,67,333,105,158",
-                        "endColumns": "42,50,91,41,39,47,43,45,37,51,52,40",
-                        "endOffsets": "467,62,601,509,328,242,424,288,100,380,153,194"
-                    },
-                    "to": {
-                        "startLines": "789,837,840,868,869,877,914,915,916,960,967,969",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "48044,54253,54585,57789,57831,58620,62384,62428,62474,69813,70200,70319",
-                        "endColumns": "42,50,91,41,39,47,43,45,37,51,52,40",
-                        "endOffsets": "48082,54299,54672,57826,57866,58663,62423,62469,62507,69860,70248,70355"
                     }
                 },
                 {
@@ -203,6 +188,23 @@
                     }
                 },
                 {
+                    "source": "/Users/melike/Desktop/sample-shopping-android/app/build/generated/res/agc/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,336,649,800,985,1202,1515,1700,1885,2102,2319,2536,2753,2938,3283,3500,3651,3836,4053,4204",
+                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
+                        "endOffsets": "331,644,795,980,1197,1510,1695,1880,2097,2314,2531,2748,2933,3278,3495,3646,3831,4048,4199,4350"
+                    },
+                    "to": {
+                        "startLines": "817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "49953,50234,50547,50698,50883,51100,51413,51598,51783,52000,52217,52434,52651,52836,53181,53398,53549,53734,53951,54102",
+                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
+                        "endOffsets": "50229,50542,50693,50878,51095,51408,51593,51778,51995,52212,52429,52646,52831,53176,53393,53544,53729,53946,54097,54248"
+                    }
+                },
+                {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
@@ -220,25 +222,6 @@
                     }
                 },
                 {
-                    "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "53",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "367"
-                    },
-                    "to": {
-                        "startLines": "1008",
-                        "startColumns": "4",
-                        "startOffsets": "73673",
-                        "endLines": "1013",
-                        "endColumns": "12",
-                        "endOffsets": "73987"
-                    }
-                },
-                {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/f04470db427f95a30daa38a862f96d1a/databinding-runtime-4.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -253,6 +236,57 @@
                         "startOffsets": "44304",
                         "endColumns": "40",
                         "endOffsets": "44340"
+                    }
+                },
+                {
+                    "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "10,1,12,11,7,5,9,6,2,8,3,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "429,16,514,472,293,199,385,247,67,333,105,158",
+                        "endColumns": "42,50,91,41,39,47,43,45,37,51,52,40",
+                        "endOffsets": "467,62,601,509,328,242,424,288,100,380,153,194"
+                    },
+                    "to": {
+                        "startLines": "789,837,840,868,869,877,914,915,916,960,967,969",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "48044,54253,54585,57789,57831,58620,62384,62428,62474,69813,70200,70319",
+                        "endColumns": "42,50,91,41,39,47,43,45,37,51,52,40",
+                        "endOffsets": "48082,54299,54672,57826,57866,58663,62423,62469,62507,69860,70248,70355"
+                    }
+                },
+                {
+                    "source": "/Users/melike/Desktop/sample-shopping-android/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,316,398,502,611,731,837",
+                        "endColumns": "143,116,81,103,108,119,105,82",
+                        "endOffsets": "194,311,393,497,606,726,832,915"
+                    },
+                    "to": {
+                        "startLines": "867,875,876,878,879,880,881,956",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "57645,58421,58538,58668,58772,58881,59001,69485",
+                        "endColumns": "143,116,81,103,108,119,105,82",
+                        "endOffsets": "57784,58533,58615,58767,58876,58996,59102,69563"
+                    }
+                },
+                {
+                    "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "245,246,247",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "12982,13028,13075",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "13023,13070,13121"
                     }
                 },
                 {
@@ -309,23 +343,6 @@
                     }
                 },
                 {
-                    "source": "/Users/melike/Desktop/ShoppingDemo/app/build/generated/res/agc/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,336,649,800,985,1202,1515,1700,1885,2102,2319,2536,2753,2938,3283,3500,3651,3836,4053,4204",
-                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
-                        "endOffsets": "331,644,795,980,1197,1510,1695,1880,2097,2314,2531,2748,2933,3278,3495,3646,3831,4048,4199,4350"
-                    },
-                    "to": {
-                        "startLines": "817,818,819,820,821,822,823,824,825,826,827,828,829,830,831,832,833,834,835,836",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "49953,50234,50547,50698,50883,51100,51413,51598,51783,52000,52217,52434,52651,52836,53181,53398,53549,53734,53951,54102",
-                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
-                        "endOffsets": "50229,50542,50693,50878,51095,51408,51593,51778,51995,52212,52429,52646,52831,53176,53393,53544,53729,53946,54097,54248"
-                    }
-                },
-                {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/4164274f4c44f8a1f1c1416b7445a544/jetified-viewpager2-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -361,23 +378,6 @@
                         "endLines": "8,350,846,847,848,961,962,963,964,965,968,970,4495,4503,4504,4505,6675",
                         "endColumns": "19,40,60,58,87,49,49,53,52,56,65,106,12,12,67,74,24",
                         "endOffsets": "436,20091,55160,55219,55307,69910,69960,70014,70067,70124,70314,70462,304413,304959,305027,305102,427766"
-                    }
-                },
-                {
-                    "source": "/Users/melike/Desktop/ShoppingDemo/app/build/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,316,398,502,611,731,837",
-                        "endColumns": "143,116,81,103,108,119,105,82",
-                        "endOffsets": "194,311,393,497,606,726,832,915"
-                    },
-                    "to": {
-                        "startLines": "867,875,876,878,879,880,881,956",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "57645,58421,58538,58668,58772,58881,59001,69485",
-                        "endColumns": "143,116,81,103,108,119,105,82",
-                        "endOffsets": "57784,58533,58615,58767,58876,58996,59102,69563"
                     }
                 },
                 {

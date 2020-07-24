@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/res/values-en-rGB/values-en-rGB.xml",

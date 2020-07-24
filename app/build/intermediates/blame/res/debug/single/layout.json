@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_product_detail.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_product_detail.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_login.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shipping.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_shipping.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shipping.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_shipping.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_login.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_product_detail.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_product_detail.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_profile.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_basket.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_basket.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_profile.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_main.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_register.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_register.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_basket.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_basket.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_register.xml",
-        "source": "/Users/melike/Desktop/ShoppingDemo/app/src/main/res/layout/fragment_register.xml"
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_main.xml"
     }
 ]

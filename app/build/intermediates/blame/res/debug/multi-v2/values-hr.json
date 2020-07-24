@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
+            "outputFile": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
             "map": [
                 {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/res/values-hr/values-hr.xml",

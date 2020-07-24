@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/melike/Desktop/ShoppingDemo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml",
+            "outputFile": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/res/values-sk/values.xml",

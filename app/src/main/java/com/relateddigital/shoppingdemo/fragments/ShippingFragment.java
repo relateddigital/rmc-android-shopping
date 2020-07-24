@@ -15,6 +15,9 @@ import androidx.fragment.app.Fragment;
 import com.relateddigital.shoppingdem.R;
 import com.relateddigital.shoppingdem.databinding.FragmentShippingBinding;
 import com.relateddigital.shoppingdemo.main.MainActivity;
+import com.visilabs.Visilabs;
+
+import java.util.HashMap;
 
 public class ShippingFragment extends Fragment {
 
@@ -32,6 +35,10 @@ public class ShippingFragment extends Fragment {
         mBinding.btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                HashMap<String, String> parameters = new HashMap<>();
+
+                Visilabs.CallAPI().customEvent("Continue Shopping", parameters, getActivity());
 
                 Intent intent = new Intent(getActivity(), MainActivity.class);
                 startActivity(intent);
