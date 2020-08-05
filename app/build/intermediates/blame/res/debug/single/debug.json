@@ -40,6 +40,10 @@
         "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/res/merged/debug/layout_activity_campaign.xml.flat",
+        "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/activity_campaign.xml"
+    },
+    {
         "merged": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/res/merged/debug/layout_fragment_register.xml.flat",
         "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/layout/fragment_register.xml"
     },

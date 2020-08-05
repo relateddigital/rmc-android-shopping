@@ -58,7 +58,7 @@
 29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 30
 31    <application
-31-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:8:5-42:19
+31-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:8:5-50:19
 32        android:name="com.relateddigital.shoppingdemo.main.MainApplication"
 32-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:9:9-76
 33        android:allowBackup="true"
@@ -96,410 +96,424 @@
 49-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:22:27-74
 50            </intent-filter>
 51        </activity>
-52
-53        <service
-53-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:26:9-32:19
-54            android:name="euromsg.com.euromobileandroid.service.EuroFirebaseMessagingService"
-54-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:27:13-94
-55            android:exported="false" >
-55-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:28:13-37
-56            <intent-filter>
-56-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:29:13-31:29
-57                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-57-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:30:17-78
-57-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:30:25-75
-58            </intent-filter>
-59        </service>
+52        <activity android:name="com.relateddigital.shoppingdemo.CampaignActivity" >
+52-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:26:9-32:20
+52-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:26:19-82
+53            <intent-filter>
+53-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:27:13-31:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:20:17-69
+54-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:20:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:30:17-76
+56-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:30:27-73
+57            </intent-filter>
+58        </activity>
+59
 60        <service
 60-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:34:9-40:19
-61            android:name="euromsg.com.euromobileandroid.service.EuroHuaweiMessagingService"
-61-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:35:13-92
+61            android:name="euromsg.com.euromobileandroid.service.EuroFirebaseMessagingService"
+61-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:35:13-94
 62            android:exported="false" >
 62-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:36:13-37
 63            <intent-filter>
 63-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:37:13-39:29
-64                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
-64-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:38:17-81
-64-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:38:25-78
+64                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+64-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:38:17-78
+64-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:38:25-75
 65            </intent-filter>
 66        </service>
-67
-68        <activity
-68-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:18:9-20:73
-69            android:name="com.visilabs.inApp.VisilabsInAppActivity"
-69-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:19:13-68
-70            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-70-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:20:13-70
-71        <activity
-71-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:21:9-23:73
-72            android:name="com.visilabs.inApp.TemplateActivity"
-72-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:22:13-63
-73            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-73-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:23:13-70
+67        <service
+67-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:42:9-48:19
+68            android:name="euromsg.com.euromobileandroid.service.EuroHuaweiMessagingService"
+68-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:43:13-92
+69            android:exported="false" >
+69-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:44:13-37
+70            <intent-filter>
+70-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:45:13-47:29
+71                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+71-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:46:17-81
+71-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:46:25-78
+72            </intent-filter>
+73        </service>
 74
-75        <receiver
-75-->[com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:15:9-18:39
-76            android:name="euromsg.com.euromobileandroid.notification.carousel.CarouselEventReceiver"
-76-->[com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:16:13-101
-77            android:enabled="true"
-77-->[com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:17:13-35
-78            android:exported="true" />
-78-->[com.euromsg:euromsg:4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/AndroidManifest.xml:18:13-36
-79
-80        <provider
-80-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad09864b7bea075326a377c70adadab6/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-81            android:name="com.squareup.picasso.PicassoProvider"
-81-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad09864b7bea075326a377c70adadab6/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-82            android:authorities="com.relateddigital.shoppingdemo.com.squareup.picasso"
-82-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad09864b7bea075326a377c70adadab6/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-83            android:exported="false" />
-83-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/ad09864b7bea075326a377c70adadab6/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-84        <!--
-85             FirebaseMessagingService performs security checks at runtime,
-86             but set to not exported to explicitly avoid allowing another app to call it.
-87        -->
-88        <service
-88-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:28:9-35:19
-89            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-89-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:29:13-82
-90            android:directBootAware="true"
-90-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:30:13-43
-91            android:exported="false" >
-91-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:31:13-37
-92            <intent-filter android:priority="-500" >
-92-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:29:13-31:29
-93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-93-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:30:17-78
-93-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:30:25-75
-94            </intent-filter>
-95        </service>
-96        <service
-96-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:36:9-42:19
-97            android:name="com.google.firebase.components.ComponentDiscoveryService"
-97-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:37:13-84
-98            android:directBootAware="true"
-98-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-99            android:exported="false" >
-99-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:38:13-37
-100            <meta-data
-100-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:39:13-41:85
-101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-101-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:40:17-119
-102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:41:17-82
-103            <meta-data
-103-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:32:13-34:85
-104                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-104-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:33:17-96
-105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:34:17-82
-106            <meta-data
-106-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
-107                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-107-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
-109            <meta-data
-109-->[com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
-110                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-110-->[com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
-112        </service>
-113
-114        <receiver
-114-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:37:9-44:20
-115            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-115-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:38:13-78
-116            android:exported="true"
-116-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:39:13-36
-117            android:permission="com.google.android.c2dm.permission.SEND" >
-117-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:40:13-73
-118            <intent-filter>
-118-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:41:13-43:29
-119                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-119-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:17-81
-119-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:25-78
-120            </intent-filter>
-121        </receiver>
-122
-123        <activity
-123-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-124-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-125            android:exported="false"
-125-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-126-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-127
-128        <provider
-128-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-129            android:name="com.google.firebase.provider.FirebaseInitProvider"
-129-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-130            android:authorities="com.relateddigital.shoppingdemo.firebaseinitprovider"
-130-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-131            android:exported="false"
-131-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-132            android:initOrder="100" />
-132-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-133
-134        <meta-data
-134-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-135            android:name="com.google.android.gms.version"
-135-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-136            android:value="@integer/google_play_services_version" />
-136-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-137
-138        <service
-138-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
-139            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-139-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
-140            android:exported="false" >
-140-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
-141            <meta-data
-141-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
-142                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-142-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
-143                android:value="cct" />
-143-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
-144        </service>
+75        <activity
+75-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:18:9-20:73
+76            android:name="com.visilabs.inApp.VisilabsInAppActivity"
+76-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:19:13-68
+77            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+77-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:20:13-70
+78        <activity
+78-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:21:9-23:73
+79            android:name="com.visilabs.inApp.TemplateActivity"
+79-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:22:13-63
+80            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+80-->[com.visilabs.android:visilabs-android:3.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2967a34fd4277f6155b5669efb0bbe12/jetified-visilabs-android-3.2.0/AndroidManifest.xml:23:13-70
+81
+82        <receiver
+82-->[com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:15:9-18:39
+83            android:name="euromsg.com.euromobileandroid.notification.carousel.CarouselEventReceiver"
+83-->[com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:16:13-101
+84            android:enabled="true"
+84-->[com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:17:13-35
+85            android:exported="true" />
+85-->[com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:18:13-36
+86
+87        <provider
+87-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/b46450d2121a18b69f240c6726eda754/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+88            android:name="com.squareup.picasso.PicassoProvider"
+88-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/b46450d2121a18b69f240c6726eda754/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+89            android:authorities="com.relateddigital.shoppingdemo.com.squareup.picasso"
+89-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/b46450d2121a18b69f240c6726eda754/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+90            android:exported="false" />
+90-->[com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/b46450d2121a18b69f240c6726eda754/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+91        <!--
+92             FirebaseMessagingService performs security checks at runtime,
+93             but set to not exported to explicitly avoid allowing another app to call it.
+94        -->
+95        <service
+95-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:28:9-35:19
+96            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+96-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:29:13-82
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:30:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:31:13-37
+99            <intent-filter android:priority="-500" >
+99-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:37:13-39:29
+100                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+100-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:38:17-78
+100-->/Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:38:25-75
+101            </intent-filter>
+102        </service>
+103        <service
+103-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:36:9-42:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:37:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:38:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:39:13-41:85
+108                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+108-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:40:17-119
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:41:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:32:13-34:85
+111                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+111-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:33:17-96
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:34:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+114                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+114-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+117                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+117-->[com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+119        </service>
+120
+121        <receiver
+121-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:37:9-44:20
+122            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+122-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:38:13-78
+123            android:exported="true"
+123-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:39:13-36
+124            android:permission="com.google.android.c2dm.permission.SEND" >
+124-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:40:13-73
+125            <intent-filter>
+125-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:41:13-43:29
+126                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+126-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:17-81
+126-->[com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:25-78
+127            </intent-filter>
+128        </receiver>
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+134
+135        <provider
+135-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+136            android:name="com.google.firebase.provider.FirebaseInitProvider"
+136-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+137            android:authorities="com.relateddigital.shoppingdemo.firebaseinitprovider"
+137-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+138            android:exported="false"
+138-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+139            android:initOrder="100" />
+139-->[com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+140
+141        <meta-data
+141-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+142            android:name="com.google.android.gms.version"
+142-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+143            android:value="@integer/google_play_services_version" />
+143-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+144
 145        <service
-145-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
-146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-146-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
-147            android:exported="false"
-147-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
-148            android:permission="android.permission.BIND_JOB_SERVICE" >
-148-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
-149        </service>
-150
-151        <receiver
-151-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
-152            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-152-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
-153            android:exported="false" />
-153-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
-154        <receiver
-154-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:24:9-35:20
-155            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
-155-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:25:13-75
-156            android:directBootAware="true"
-156-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:26:13-43
-157            android:permission="com.relateddigital.shoppingdemo.permission.PROCESS_PUSH_MSG" >
-157-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:27:13-78
-158            <intent-filter>
-158-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:28:13-34:29
-159
-160                <!-- 必须, 用于接收通知栏消息点击事件 -->
-161                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
-161-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:31:17-85
-161-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:31:25-82
-162                <!-- 可选，兼容老的华为手机 -->
-163                <action android:name="com.huawei.intent.action.PUSH" />
-163-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:33:17-72
-163-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:33:25-69
-164            </intent-filter>
-165        </receiver>
-166        <receiver
-166-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:36:9-47:20
-167            android:name="com.huawei.hms.support.api.push.PushReceiver"
-167-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:37:13-72
-168            android:directBootAware="true"
-168-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:38:13-43
-169            android:permission="com.relateddigital.shoppingdemo.permission.PROCESS_PUSH_MSG" >
-169-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:39:13-78
-170            <intent-filter>
-170-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:40:13-46:29
-171
-172                <!-- 必须,用于接收token -->
-173                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
-173-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:43:17-86
-173-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:43:25-83
-174                <!-- 必须, 用于接收消息 -->
-175                <action android:name="com.huawei.android.push.intent.RECEIVE" />
-175-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:45:17-81
-175-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:45:25-78
-176            </intent-filter>
-177        </receiver> <!-- 非华为手机通知栏和透传消息的接收服务定义 -->
-178        <service
-178-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:50:9-60:19
-179            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
-179-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:51:13-81
-180            android:directBootAware="true"
-180-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:52:13-43
-181            android:enabled="true"
-181-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:53:13-35
-182            android:exported="true"
-182-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:54:13-36
-183            android:process=":pushservice" >
-183-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:55:13-43
-184            <intent-filter>
-184-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:56:13-59:29
-185                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
-185-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:57:17-73
-185-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:57:25-70
-186                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
-186-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:58:17-73
-186-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:58:25-70
-187            </intent-filter>
-188        </service>
-189
-190        <provider
-190-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:62:9-68:89
-191            android:name="com.huawei.hms.support.api.push.PushProvider"
-191-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:63:13-72
-192            android:authorities="com.relateddigital.shoppingdemo.huawei.push.provider"
-192-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:64:13-72
-193            android:exported="true"
-193-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:65:13-36
-194            android:permission="com.relateddigital.shoppingdemo.permission.PUSH_PROVIDER"
-194-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:66:13-75
-195            android:readPermission="com.relateddigital.shoppingdemo.permission.PUSH_PROVIDER"
-195-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:67:13-79
-196            android:writePermission="com.relateddigital.shoppingdemo.permission.PUSH_WRITE_PROVIDER" />
-196-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:68:13-86
-197
-198        <meta-data
-198-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:70:9-72:46
-199            android:name="com.huawei.hms.client.service.name:push"
-199-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:71:13-67
-200            android:value="push:4.0.3.301" />
-200-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:72:13-43
-201        <meta-data
-201-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:73:9-75:33
-202            android:name="com.huawei.hms.min_api_level:push:push"
-202-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:74:13-66
-203            android:value="1" />
-203-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:75:13-30
+145-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+146            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+146-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+147            android:exported="false" >
+147-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+148            <meta-data
+148-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+149                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+149-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+150                android:value="cct" />
+150-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+151        </service>
+152        <service
+152-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+153            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+153-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+154            android:exported="false"
+154-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" >
+155-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+156        </service>
+157
+158        <receiver
+158-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+159            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+159-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+160            android:exported="false" />
+160-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+161        <receiver
+161-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:24:9-35:20
+162            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+162-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:25:13-75
+163            android:directBootAware="true"
+163-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:26:13-43
+164            android:permission="com.relateddigital.shoppingdemo.permission.PROCESS_PUSH_MSG" >
+164-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:27:13-78
+165            <intent-filter>
+165-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:28:13-34:29
+166
+167                <!-- 必须, 用于接收通知栏消息点击事件 -->
+168                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+168-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:31:17-85
+168-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:31:25-82
+169                <!-- 可选，兼容老的华为手机 -->
+170                <action android:name="com.huawei.intent.action.PUSH" />
+170-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:33:17-72
+170-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:33:25-69
+171            </intent-filter>
+172        </receiver>
+173        <receiver
+173-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:36:9-47:20
+174            android:name="com.huawei.hms.support.api.push.PushReceiver"
+174-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:37:13-72
+175            android:directBootAware="true"
+175-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:38:13-43
+176            android:permission="com.relateddigital.shoppingdemo.permission.PROCESS_PUSH_MSG" >
+176-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:39:13-78
+177            <intent-filter>
+177-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:40:13-46:29
+178
+179                <!-- 必须,用于接收token -->
+180                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+180-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:43:17-86
+180-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:43:25-83
+181                <!-- 必须, 用于接收消息 -->
+182                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+182-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:45:17-81
+182-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:45:25-78
+183            </intent-filter>
+184        </receiver> <!-- 非华为手机通知栏和透传消息的接收服务定义 -->
+185        <service
+185-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:50:9-60:19
+186            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+186-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:51:13-81
+187            android:directBootAware="true"
+187-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:52:13-43
+188            android:enabled="true"
+188-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:53:13-35
+189            android:exported="true"
+189-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:54:13-36
+190            android:process=":pushservice" >
+190-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:55:13-43
+191            <intent-filter>
+191-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:56:13-59:29
+192                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+192-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:57:17-73
+192-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:57:25-70
+193                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+193-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:58:17-73
+193-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:58:25-70
+194            </intent-filter>
+195        </service>
+196
+197        <provider
+197-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:62:9-68:89
+198            android:name="com.huawei.hms.support.api.push.PushProvider"
+198-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:63:13-72
+199            android:authorities="com.relateddigital.shoppingdemo.huawei.push.provider"
+199-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:64:13-72
+200            android:exported="true"
+200-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:65:13-36
+201            android:permission="com.relateddigital.shoppingdemo.permission.PUSH_PROVIDER"
+201-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:66:13-75
+202            android:readPermission="com.relateddigital.shoppingdemo.permission.PUSH_PROVIDER"
+202-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:67:13-79
+203            android:writePermission="com.relateddigital.shoppingdemo.permission.PUSH_WRITE_PROVIDER" />
+203-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:68:13-86
 204
-205        <provider
-205-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:10:9-13:40
-206            android:name="com.huawei.hms.aaid.InitProvider"
-206-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:11:13-60
-207            android:authorities="com.relateddigital.shoppingdemo.aaidinitprovider"
-207-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:12:13-68
-208            android:exported="false" />
-208-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:13:13-37
-209
-210        <meta-data
-210-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:15:9-17:52
-211            android:name="com.huawei.hms.client.service.name:opendevice"
-211-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:16:13-73
-212            android:value="opendevice:4.0.1.301" />
-212-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:17:13-49
-213        <meta-data
-213-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:18:9-20:33
-214            android:name="com.huawei.hms.min_api_level:opendevice:push"
-214-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:19:13-72
-215            android:value="1" />
-215-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:20:13-30
-216        <!--
-217        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
-218        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
-219        -->
+205        <meta-data
+205-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:70:9-72:46
+206            android:name="com.huawei.hms.client.service.name:push"
+206-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:71:13-67
+207            android:value="push:4.0.3.301" />
+207-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:72:13-43
+208        <meta-data
+208-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:73:9-75:33
+209            android:name="com.huawei.hms.min_api_level:push:push"
+209-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:74:13-66
+210            android:value="1" />
+210-->[com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:75:13-30
+211
+212        <provider
+212-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:10:9-13:40
+213            android:name="com.huawei.hms.aaid.InitProvider"
+213-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:11:13-60
+214            android:authorities="com.relateddigital.shoppingdemo.aaidinitprovider"
+214-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:12:13-68
+215            android:exported="false" />
+215-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:13:13-37
+216
+217        <meta-data
+217-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:15:9-17:52
+218            android:name="com.huawei.hms.client.service.name:opendevice"
+218-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:16:13-73
+219            android:value="opendevice:4.0.1.301" />
+219-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:17:13-49
 220        <meta-data
-220-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:26:9-28:46
-221            android:name="com.huawei.hms.client.service.name:base"
-221-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:27:13-67
-222            android:value="base:4.0.2.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
-222-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:28:13-43
-223        <meta-data
-223-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:31:9-33:33
-224            android:name="com.huawei.hms.min_api_level:base:hmscore"
-224-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:32:13-69
-225            android:value="1" />
-225-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:33:13-30
-226
-227        <activity
-227-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:35:9-45:20
-228            android:name="com.huawei.hms.activity.BridgeActivity"
-228-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:36:13-66
-229            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
-229-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:37:13-124
-230            android:excludeFromRecents="true"
-230-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:38:13-46
-231            android:exported="false"
-231-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:39:13-37
-232            android:hardwareAccelerated="true"
-232-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:40:13-47
-233            android:theme="@android:style/Theme.Translucent" >
-233-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:41:13-61
-234            <meta-data
-234-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:42:13-44:77
-235                android:name="hwc-theme"
-235-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:43:17-41
-236                android:value="androidhwext:style/Theme.Emui.Translucent" />
-236-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:44:17-74
-237        </activity>
-238        <activity
-238-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:46:9-49:20
-239            android:name="com.huawei.hms.activity.EnableServiceActivity"
-239-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:47:13-73
-240            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
-240-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:48:13-106
-241        </activity>
-242
-243        <provider
-243-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:51:9-56:20
-244            android:name="com.huawei.hms.update.provider.UpdateProvider"
-244-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:52:13-73
-245            android:authorities="com.relateddigital.shoppingdemo.hms.update.provider"
-245-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:53:13-71
-246            android:exported="false"
-246-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:54:13-37
-247            android:grantUriPermissions="true" >
-247-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:55:13-47
-248        </provider>
-249        <provider
-249-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:10:9-13:40
-250            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
-250-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:11:13-90
-251            android:authorities="com.relateddigital.shoppingdemo.AGCInitializeProvider"
-251-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:12:13-73
-252            android:exported="false" />
-252-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:13:13-37
-253
-254        <service
-254-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:15:9-17:40
-255            android:name="com.huawei.agconnect.core.ServiceDiscovery"
-255-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:16:13-70
-256            android:exported="false" />
-256-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:17:13-37
-257
-258        <activity
-258-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:21:9-29:20
-259            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
-259-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:22:13-84
-260            android:configChanges="orientation|screenSize"
-260-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:23:13-59
-261            android:exported="false"
-261-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:24:13-37
-262            android:theme="@style/upsdkDlDialog" >
-262-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:25:13-49
-263            <meta-data
-263-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:42:13-44:77
-264                android:name="hwc-theme"
-264-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:43:17-41
-265                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
-265-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:44:17-74
-266        </activity>
-267        <activity
-267-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:30:9-38:20
-268            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
-268-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:31:13-84
-269            android:configChanges="orientation|keyboardHidden|screenSize"
-269-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:32:13-74
-270            android:exported="false"
-270-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:33:13-37
-271            android:theme="@style/upsdkDlDialog" >
-271-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:34:13-49
-272            <meta-data
-272-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:42:13-44:77
-273                android:name="hwc-theme"
-273-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:43:17-41
-274                android:value="androidhwext:style/Theme.Emui.Translucent" />
-274-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:44:17-74
-275        </activity>
-276    </application>
-277
-278</manifest>
+220-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:18:9-20:33
+221            android:name="com.huawei.hms.min_api_level:opendevice:push"
+221-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:19:13-72
+222            android:value="1" />
+222-->[com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:20:13-30
+223        <!--
+224        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+225        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+226        -->
+227        <meta-data
+227-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:26:9-28:46
+228            android:name="com.huawei.hms.client.service.name:base"
+228-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:27:13-67
+229            android:value="base:4.0.2.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+229-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:28:13-43
+230        <meta-data
+230-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:31:9-33:33
+231            android:name="com.huawei.hms.min_api_level:base:hmscore"
+231-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:32:13-69
+232            android:value="1" />
+232-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:33:13-30
+233
+234        <activity
+234-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:35:9-45:20
+235            android:name="com.huawei.hms.activity.BridgeActivity"
+235-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:36:13-66
+236            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
+236-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:37:13-124
+237            android:excludeFromRecents="true"
+237-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:38:13-46
+238            android:exported="false"
+238-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:39:13-37
+239            android:hardwareAccelerated="true"
+239-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:40:13-47
+240            android:theme="@android:style/Theme.Translucent" >
+240-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:41:13-61
+241            <meta-data
+241-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:42:13-44:77
+242                android:name="hwc-theme"
+242-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:43:17-41
+243                android:value="androidhwext:style/Theme.Emui.Translucent" />
+243-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:44:17-74
+244        </activity>
+245        <activity
+245-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:46:9-49:20
+246            android:name="com.huawei.hms.activity.EnableServiceActivity"
+246-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:47:13-73
+247            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
+247-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:48:13-106
+248        </activity>
+249
+250        <provider
+250-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:51:9-56:20
+251            android:name="com.huawei.hms.update.provider.UpdateProvider"
+251-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:52:13-73
+252            android:authorities="com.relateddigital.shoppingdemo.hms.update.provider"
+252-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:53:13-71
+253            android:exported="false"
+253-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:54:13-37
+254            android:grantUriPermissions="true" >
+254-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:55:13-47
+255        </provider>
+256        <provider
+256-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:10:9-13:40
+257            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+257-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:11:13-90
+258            android:authorities="com.relateddigital.shoppingdemo.AGCInitializeProvider"
+258-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:12:13-73
+259            android:exported="false" />
+259-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:13:13-37
+260
+261        <service
+261-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:15:9-17:40
+262            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+262-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:16:13-70
+263            android:exported="false" />
+263-->[com.huawei.agconnect:agconnect-core:1.0.0.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/3341f65fdc18e0732f3ccfb50fc9a97f/jetified-agconnect-core-1.0.0.300/AndroidManifest.xml:17:13-37
+264
+265        <activity
+265-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:21:9-29:20
+266            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+266-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:22:13-84
+267            android:configChanges="orientation|screenSize"
+267-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:23:13-59
+268            android:exported="false"
+268-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:24:13-37
+269            android:theme="@style/upsdkDlDialog" >
+269-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:25:13-49
+270            <meta-data
+270-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:42:13-44:77
+271                android:name="hwc-theme"
+271-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:43:17-41
+272                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+272-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:44:17-74
+273        </activity>
+274        <activity
+274-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:30:9-38:20
+275            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+275-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:31:13-84
+276            android:configChanges="orientation|keyboardHidden|screenSize"
+276-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:32:13-74
+277            android:exported="false"
+277-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:33:13-37
+278            android:theme="@style/upsdkDlDialog" >
+278-->[com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:34:13-49
+279            <meta-data
+279-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:42:13-44:77
+280                android:name="hwc-theme"
+280-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:43:17-41
+281                android:value="androidhwext:style/Theme.Emui.Translucent" />
+281-->[com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:44:17-74
+282        </activity>
+283    </application>
+284
+285</manifest>

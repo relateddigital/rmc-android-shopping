@@ -703,6 +703,23 @@
                     }
                 },
                 {
+                    "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "256",
+                        "startColumns": "4",
+                        "startOffsets": "13797",
+                        "endColumns": "45",
+                        "endOffsets": "13838"
+                    }
+                },
+                {
                     "source": "/Users/melike/Desktop/sample-shopping-android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "10,1,12,11,7,5,9,6,2,8,3,4",
@@ -770,23 +787,6 @@
                         "endLines": "44,4491,5758,5847",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "2184,304179,379716,384927"
-                    }
-                },
-                {
-                    "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/8d75d5a6c940b4249640c48c0ea38ba0/jetified-euromsg-4.0.1/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "45",
-                        "endOffsets": "96"
-                    },
-                    "to": {
-                        "startLines": "256",
-                        "startColumns": "4",
-                        "startOffsets": "13797",
-                        "endColumns": "45",
-                        "endOffsets": "13838"
                     }
                 },
                 {

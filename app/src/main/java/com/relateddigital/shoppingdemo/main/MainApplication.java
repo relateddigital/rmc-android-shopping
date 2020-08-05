@@ -29,6 +29,7 @@ public class MainApplication extends Application {
 
         euroMobileManager = EuroMobileManager.init("shopping-android", "shopping-huawei", getApplicationContext());
         euroMobileManager.registerToFCM(getApplicationContext());
+        euroMobileManager.setPushIntent("com.relateddigital.shoppingdemo.CampaignActivity", getApplicationContext());
 
         if (!EuroMobileManager.checkPlayService(getApplicationContext())) {
             setHuaweiTokenToEuromessage();

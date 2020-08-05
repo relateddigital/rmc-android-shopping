@@ -1562,6 +1562,7 @@ id btn_pay
 id btn_register
 id btn_send_push
 id btn_template
+id btn_yes
 id buttonPanel
 id cancel_bg
 id cancel_button
@@ -1646,6 +1647,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv
 id iv_arrow_left
 id iv_arrow_right
 id iv_carousel_app_icon
@@ -1923,6 +1925,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_campaign
 layout activity_endisable_service
 layout activity_in_app_full
 layout activity_main
