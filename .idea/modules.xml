@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Shopping Demo/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/crazy/crazy.iml" filepath="$PROJECT_DIR$/.idea/modules/crazy/crazy.iml" group="Shopping Demo/crazy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/euromsg/euromsg.iml" filepath="$PROJECT_DIR$/.idea/modules/euromsg/euromsg.iml" group="Shopping Demo/euromsg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/visilabs-android/visilabs-android.iml" filepath="$PROJECT_DIR$/.idea/modules/visilabs-android/visilabs-android.iml" group="Shopping Demo/visilabs-android" />
     </modules>
   </component>
 </project>

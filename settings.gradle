@@ -1,2 +1,3 @@
+include ':visilabs-android'
 include ':app'
 rootProject.name = "Shopping Demo"

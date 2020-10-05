@@ -5,6 +5,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
@@ -21,6 +22,7 @@ import com.relateddigital.shoppingdemo.fragments.ProductDetailFragment;
 import com.relateddigital.shoppingdemo.model.Product;
 import com.relateddigital.shoppingdemo.adapters.HomeAdapter;
 import com.visilabs.Visilabs;
+import com.visilabs.story.model.StoryItemClickListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -32,13 +34,15 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class HomeFragment extends Fragment {
+public class
+HomeFragment extends Fragment {
 
     List<Product> productList;
 
     String TAG = "HomeFragment";
     String NAME = "Shopping";
 
+    StoryItemClickListener storyItemClickListener;
     FragmentHomeBinding mBinding;
 
     @Override
@@ -52,6 +56,17 @@ public class HomeFragment extends Fragment {
         mBinding.recyclerView.setLayoutManager(layoutManager);
 
         HomeAdapter homeAdapter = new HomeAdapter(getProductList());
+
+        storyItemClickListener = new StoryItemClickListener() {
+            @Override
+            public void storyItemClicked(String storyLink) {
+                Toast.makeText(getActivity(), storyLink, Toast.LENGTH_LONG).show();
+            }
+        };
+
+        mBinding.vrvStory.setStoryAction(getActivity(), storyItemClickListener);
+
+
 
         mBinding.recyclerView.setAdapter(homeAdapter);
         homeAdapter.notifyDataSetChanged();
