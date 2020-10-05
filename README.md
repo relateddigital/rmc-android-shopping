@@ -1,6 +1,6 @@
-# rmc-android-shopping
+# Sample Shopping Android Application for Visilabs and Euromessage
 
-It is a demo e commerce android application containing visilabs and euromessage sdk
+It is a demo e-commerce android application containing Visilabs and Euromessage sdk
 
 <p align="center">
   <img src="https://github.com/relateddigital/rmc-android-shopping/blob/master/ss/1.png" width="350" title="hover text">
