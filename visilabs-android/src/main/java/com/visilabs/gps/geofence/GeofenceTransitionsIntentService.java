@@ -2,6 +2,7 @@ package com.visilabs.gps.geofence;
 
 import android.content.Context;
 import android.content.Intent;
+import android.location.Location;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
@@ -67,7 +68,7 @@ public class GeofenceTransitionsIntentService extends JobIntentService {
                 public void run() {
                     try {
                         Log.d("triggered", getClosestGoefence(gpsManager, triggerList).getRequestId());
-                        geoFenceTriggered(getClosestGoefence(gpsManager, triggerList).getRequestId(), geoFenceEvent.getGeofenceTransition());
+                        geoFenceTriggered(getClosestGoefence(gpsManager, triggerList).getRequestId(), geoFenceEvent.getGeofenceTransition(), geoFenceEvent.getTriggeringLocation().getLatitude(), geoFenceEvent.getTriggeringLocation().getLongitude());
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -79,12 +80,14 @@ public class GeofenceTransitionsIntentService extends JobIntentService {
         }
     }
 
-    private void geoFenceTriggered(String geofence_guid, int transition) throws Exception {
+    private void geoFenceTriggered(String geofence_guid, int transition, double lat, double longi) throws Exception {
         Log.i(TAG, geofence_guid);
 
         VisilabsGeofenceRequest request = new VisilabsGeofenceRequest(Visilabs.CallAPI().getContext());
         request.setAction("process");
         request.setApiVer("Android");
+        request.setLatitude(lat);
+        request.setLongitude(longi);
 
         String[] geofenceParts = geofence_guid.split("_");
         if (geofenceParts != null && geofenceParts.length > 2) {
