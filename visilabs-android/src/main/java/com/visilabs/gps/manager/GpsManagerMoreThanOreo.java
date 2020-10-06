@@ -256,8 +256,9 @@ public class GpsManagerMoreThanOreo {
 
         double lat1 = lastKnownLocation.getLatitude();
         double long1 = lastKnownLocation.getLongitude();
+
+
         for (VisilabsGeoFenceEntity entity : allGeoFenceEntityList) {
-            entity.distance = GeoFencesUtils.haversine(lat1, long1, Double.parseDouble(entity.lat), Double.parseDouble(entity.lng)); //difference btw two points
         }
         Collections.sort(allGeoFenceEntityList, new GpsManagerMoreThanOreo.DistanceComparator());
         toAddGeoFenceEntityList.clear();
@@ -373,5 +374,13 @@ public class GpsManagerMoreThanOreo {
             position2 = object2.distance;
             return Double.compare(position1, position2);
         }
+    }
+
+    public Location getLastKnownLocation() {
+        return lastKnownLocation;
+    }
+
+    public List<VisilabsGeoFenceEntity> getActiveGeoFenceEntityList() {
+        return activeGeoFenceEntityList;
     }
 }

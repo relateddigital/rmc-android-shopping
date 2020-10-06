@@ -15,7 +15,9 @@ import com.visilabs.Visilabs;
 import com.visilabs.VisilabsResponse;
 import com.visilabs.api.VisilabsGeofenceRequest;
 import com.visilabs.api.VisilabsCallback;
+import com.visilabs.gps.entities.VisilabsGeoFenceEntity;
 import com.visilabs.gps.manager.GpsManagerMoreThanOreo;
+import com.visilabs.gps.util.GeoFencesUtils;
 import com.visilabs.json.JSONArray;
 
 import java.util.List;
@@ -52,30 +54,28 @@ public class GeofenceTransitionsIntentService extends JobIntentService {
             Log.e(TAG, "Location Services error: " + errorCode);
             return;
         } else {
-            GpsManagerMoreThanOreo gpsManager = Injector.INSTANCE.getGpsManagerMoreThanOreo();
+            final GpsManagerMoreThanOreo gpsManager = Injector.INSTANCE.getGpsManagerMoreThanOreo();
             if (gpsManager == null)
                 return;
-            List<Geofence> triggerList = geoFenceEvent.getTriggeringGeofences();
-            for (final Geofence geofence : triggerList) {
-                if (Looper.myLooper() == null)
-                    Looper.prepare();
-                Handler mainHandler = new Handler(Looper.getMainLooper());
-                Runnable myRunnable = new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-                            geoFenceTriggered(geofence.getRequestId(), geoFenceEvent.getGeofenceTransition());
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+            final List<Geofence> triggerList = geoFenceEvent.getTriggeringGeofences();
+
+            if (Looper.myLooper() == null)
+                Looper.prepare();
+            Handler mainHandler = new Handler(Looper.getMainLooper());
+            Runnable myRunnable = new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Log.d("triggered", getClosestGoefence(gpsManager, triggerList).getRequestId());
+                        geoFenceTriggered(getClosestGoefence(gpsManager, triggerList).getRequestId(), geoFenceEvent.getGeofenceTransition());
+                    } catch (Exception e) {
+                        e.printStackTrace();
                     }
-                };
-                mainHandler.post(myRunnable);
-                if (Looper.myLooper() == null)
-                    Looper.loop();
-
-            }
-
+                }
+            };
+            mainHandler.post(myRunnable);
+            if (Looper.myLooper() == null)
+                Looper.loop();
         }
     }
 
@@ -106,5 +106,30 @@ public class GeofenceTransitionsIntentService extends JobIntentService {
             request.executeAsync(callback);
         }
     }
-}
+
+    private Geofence getClosestGoefence(GpsManagerMoreThanOreo gpsManager, List<Geofence> triggerList) {
+        if (triggerList.size() == 0) {
+            return  null;
+        } else if (triggerList.size() ==1) {
+            return  triggerList.get(0);
+        } else {
+            double lastKnownLatitude = gpsManager.getLastKnownLocation().getLatitude();
+            double lastKnownLongitude = gpsManager.getLastKnownLocation().getLongitude();
+            Geofence triggeredGeofence  = null;
+            Double minDistance = Double.MAX_VALUE;
+            for (final Geofence geofence : triggerList) {
+                for(VisilabsGeoFenceEntity geoFenceEntity: gpsManager.activeGeoFenceEntityList) {
+                        double distance = GeoFencesUtils.haversine(lastKnownLatitude, lastKnownLongitude, Double.parseDouble(geoFenceEntity.lat), Double.parseDouble(geoFenceEntity.lng));
+                        if(distance < minDistance){
+                            triggeredGeofence = geofence;
+                            minDistance = distance;
+
+                        break;
+                    }
+                }
+            }
+            return triggeredGeofence;
+        }
+
+    }}
 
