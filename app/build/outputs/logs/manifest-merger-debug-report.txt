@@ -7,34 +7,33 @@ INJECTED from /Users/melike/Desktop/sample-shopping-android/app/src/main/Android
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/03f8b8e9c24fef2c90e3e71f62522e16/databinding-adapters-4.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f04470db427f95a30daa38a862f96d1a/databinding-runtime-4.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:2:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/melike/.gradle/caches/transforms-2/files-2.1/41bc1bf8b159a688f1e8bf5f0fccc6fe/constraintlayout-2.0.0-rc1/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/c93d8797dc5652d0ffd83e510883ce96/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/bee7b21ab7892c2da7bebfdaf4e53f7e/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:2:1-21:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/e63d6f9b47ad888afab5f9eebef85dff/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ca16836e123e744014970c0c308a82b1/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac55dc7b74e2bdc824ac8e078b89f6f3/jetified-viewbinding-4.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4164274f4c44f8a1f1c1416b7445a544/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5899ed85d81c9da1ef2ee12b3f1e6e43/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0f7ff9ee823511944e5abcf258c0d479/jetified-play-services-location-17.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:17:1-45:12
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/54ce146cb69bd94040ea533298a5d32e/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a2b380b16b36432674a92297d591fb03/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f3dad419b116d564ee377451a16ebb9f/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ef444c9e0a7ec52aefcb486653c65dfe/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ed2ec0fe3cc19811b39efceaee2bb26f/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f3dad419b116d564ee377451a16ebb9f/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e0f3812931ac868ceb8a9ec1eaaedec6/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d47411bcd4c5d474e1752376b856750/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/7796cd3ab19401a255291bb233add9b5/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/96e390cd42a0a65b0f4f54660b8fcb3b/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/3ab8f1f15d6f0513b8b5e80df095eac2/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/14a5e669d54cca6def822ea2ece510b1/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f434e4ab8c7f4acedad630d14043e919/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/b14f35d88f8a67c182a117ca2513cc11/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fd4c532d2bc17a0826560d54a4cdb73/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2686b1f094be386ead8fcf4e88e8d03d/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/b72c19e28fcb208d3fe2a0d6e1debe7c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5cf4d063ad9a68559feae0ba30fee8be/jetified-core-ktx-1.3.0/AndroidManifest.xml:2:1-9:12
@@ -42,25 +41,26 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/melike/.gradle/cac
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/930ed6960682e0756ef022d533778b20/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/264b5ec00316d9e848336429cbc702b2/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/40cbba4137f7d528183001b4ad80b083/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/14a5e669d54cca6def822ea2ece510b1/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d16a21b066c2828db2188aad892c69e5/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac9e637b533cfe54705d606f3858e76e/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/ffb1e8e1283a18284911781c2ed74afe/core-1.3.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0288dcce7f2d7b8ad250f45a979254f1/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/12b6fdddb33dc015055333f14a332379/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/05d379239bb75a3a2dbb68eefd99b1f6/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/68e840371bad4608c238cdd9ecc5a17d/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0706c75c6ebcbe0bcd2df1b1a2f21fc1/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/c50f8bf427cac1880b364808cc516cad/jetified-firebase-encoders-json-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/05d379239bb75a3a2dbb68eefd99b1f6/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/84999563376e976410768e8a06fd369f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e3a5e31c3aa9fdaee64c2ca0d6be0606/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e12df958a715f43ac922f54e7acc6d0b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/91eaf82a98826032c62f67c1fbab2d96/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/7d7abacbfb27f2bdb62eaf837c031345/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/43c2a99a495989592922f8aa24424cb6/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a8b8d13a47ce8754f72b499319b24a52/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ec1a099529c2cee81985a3cbd3c3deb7/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/3cdb76676b5ac3189207a1f79805495b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e12df958a715f43ac922f54e7acc6d0b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:2:1-78:12
 MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:2:1-23:12
 MERGED from [com.huawei.hms:base:4.0.2.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/d2b9a539554d1f75e24e7c5e0317cdaa/jetified-base-4.0.2.300/AndroidManifest.xml:2:1-59:12
@@ -90,8 +90,8 @@ INJECTED from /Users/melike/Desktop/sample-shopping-android/app/src/main/Android
 		ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:4:5-66
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:12:5-67
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:12:5-67
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:12:5-67
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:12:5-67
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:11:5-67
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:23:5-67
@@ -116,8 +116,8 @@ ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidMan
 		ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:7:5-79
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:11:5-79
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:11:5-79
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:11:5-79
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:11:5-79
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:12:5-79
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:22:5-79
@@ -138,24 +138,24 @@ application
 ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:9:5-80:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:14:5-24:19
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:14:5-24:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/melike/.gradle/caches/transforms-2/files-2.1/41bc1bf8b159a688f1e8bf5f0fccc6fe/constraintlayout-2.0.0-rc1/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/melike/.gradle/caches/transforms-2/files-2.1/41bc1bf8b159a688f1e8bf5f0fccc6fe/constraintlayout-2.0.0-rc1/AndroidManifest.xml:9:5-20
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:14:5-24:19
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:14:5-24:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/c93d8797dc5652d0ffd83e510883ce96/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/c93d8797dc5652d0ffd83e510883ce96/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:14:5-19:19
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:14:5-19:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/e63d6f9b47ad888afab5f9eebef85dff/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/e63d6f9b47ad888afab5f9eebef85dff/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5899ed85d81c9da1ef2ee12b3f1e6e43/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5899ed85d81c9da1ef2ee12b3f1e6e43/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0f7ff9ee823511944e5abcf258c0d479/jetified-play-services-location-17.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0f7ff9ee823511944e5abcf258c0d479/jetified-play-services-location-17.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:22:5-43:19
 MERGED from [com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:22:5-43:19
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/54ce146cb69bd94040ea533298a5d32e/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/54ce146cb69bd94040ea533298a5d32e/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a2b380b16b36432674a92297d591fb03/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a2b380b16b36432674a92297d591fb03/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
@@ -164,16 +164,16 @@ MERGED from [com.google.firebase:firebase-installations:16.3.2] /Users/melike/.g
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ef444c9e0a7ec52aefcb486653c65dfe/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ef444c9e0a7ec52aefcb486653c65dfe/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ed2ec0fe3cc19811b39efceaee2bb26f/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ed2ec0fe3cc19811b39efceaee2bb26f/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e0f3812931ac868ceb8a9ec1eaaedec6/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e0f3812931ac868ceb8a9ec1eaaedec6/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d47411bcd4c5d474e1752376b856750/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d47411bcd4c5d474e1752376b856750/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac9e637b533cfe54705d606f3858e76e/core-1.3.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac9e637b533cfe54705d606f3858e76e/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/ffb1e8e1283a18284911781c2ed74afe/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/ffb1e8e1283a18284911781c2ed74afe/core-1.3.1/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/12b6fdddb33dc015055333f14a332379/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/12b6fdddb33dc015055333f14a332379/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
@@ -193,7 +193,7 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/melike/.gradle/caches/tr
 MERGED from [com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:20:5-39:19
 MERGED from [com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/transforms-2/files-2.1/7fdbdbc324c345c46ca57478b6347e4c/jetified-update-2.0.6.300/AndroidManifest.xml:20:5-39:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac9e637b533cfe54705d606f3858e76e/core-1.3.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/ffb1e8e1283a18284911781c2ed74afe/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
@@ -207,7 +207,7 @@ MERGED from [com.huawei.hms:update:2.0.6.300] /Users/melike/.gradle/caches/trans
 	android:allowBackup
 		ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:11:9-35
 	android:networkSecurityConfig
-		ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:16:9-69
+		ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:16:9-69
 	android:theme
 		ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml:16:9-40
 	android:name
@@ -314,12 +314,12 @@ MERGED from [androidx.databinding:databinding-runtime:4.0.0] /Users/melike/.grad
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f04470db427f95a30daa38a862f96d1a/databinding-runtime-4.0.0/AndroidManifest.xml:22:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a03dedc905576709da401d30766a7877/material-1.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/melike/.gradle/caches/transforms-2/files-2.1/41bc1bf8b159a688f1e8bf5f0fccc6fe/constraintlayout-2.0.0-rc1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/melike/.gradle/caches/transforms-2/files-2.1/41bc1bf8b159a688f1e8bf5f0fccc6fe/constraintlayout-2.0.0-rc1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/c93d8797dc5652d0ffd83e510883ce96/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/c93d8797dc5652d0ffd83e510883ce96/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/bee7b21ab7892c2da7bebfdaf4e53f7e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/bee7b21ab7892c2da7bebfdaf4e53f7e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/melike/.gradle/caches/transforms-2/files-2.1/e63d6f9b47ad888afab5f9eebef85dff/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
@@ -330,16 +330,16 @@ MERGED from [androidx.databinding:viewbinding:4.0.0] /Users/melike/.gradle/cache
 MERGED from [androidx.databinding:viewbinding:4.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac55dc7b74e2bdc824ac8e078b89f6f3/jetified-viewbinding-4.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4164274f4c44f8a1f1c1416b7445a544/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/4164274f4c44f8a1f1c1416b7445a544/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5899ed85d81c9da1ef2ee12b3f1e6e43/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5899ed85d81c9da1ef2ee12b3f1e6e43/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0f7ff9ee823511944e5abcf258c0d479/jetified-play-services-location-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0f7ff9ee823511944e5abcf258c0d479/jetified-play-services-location-17.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/da063edab92d94de4128721d48baafcf/jetified-firebase-messaging-20.2.3/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/54ce146cb69bd94040ea533298a5d32e/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/54ce146cb69bd94040ea533298a5d32e/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a2b380b16b36432674a92297d591fb03/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/a2b380b16b36432674a92297d591fb03/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
@@ -348,28 +348,26 @@ MERGED from [com.google.firebase:firebase-installations:16.3.2] /Users/melike/.g
 MERGED from [com.google.firebase:firebase-installations:16.3.2] /Users/melike/.gradle/caches/transforms-2/files-2.1/baa52b4bdc1326461f35930362732a6e/jetified-firebase-installations-16.3.2/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f3dad419b116d564ee377451a16ebb9f/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f3dad419b116d564ee377451a16ebb9f/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ef444c9e0a7ec52aefcb486653c65dfe/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ef444c9e0a7ec52aefcb486653c65dfe/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ed2ec0fe3cc19811b39efceaee2bb26f/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ed2ec0fe3cc19811b39efceaee2bb26f/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f3dad419b116d564ee377451a16ebb9f/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f3dad419b116d564ee377451a16ebb9f/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e0f3812931ac868ceb8a9ec1eaaedec6/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e0f3812931ac868ceb8a9ec1eaaedec6/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d47411bcd4c5d474e1752376b856750/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/8d47411bcd4c5d474e1752376b856750/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/7796cd3ab19401a255291bb233add9b5/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/7796cd3ab19401a255291bb233add9b5/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/96e390cd42a0a65b0f4f54660b8fcb3b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/96e390cd42a0a65b0f4f54660b8fcb3b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/3ab8f1f15d6f0513b8b5e80df095eac2/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/3ab8f1f15d6f0513b8b5e80df095eac2/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/14a5e669d54cca6def822ea2ece510b1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/14a5e669d54cca6def822ea2ece510b1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f434e4ab8c7f4acedad630d14043e919/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/f434e4ab8c7f4acedad630d14043e919/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/b14f35d88f8a67c182a117ca2513cc11/transition-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/b14f35d88f8a67c182a117ca2513cc11/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fd4c532d2bc17a0826560d54a4cdb73/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fd4c532d2bc17a0826560d54a4cdb73/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2686b1f094be386ead8fcf4e88e8d03d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2686b1f094be386ead8fcf4e88e8d03d/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/b72c19e28fcb208d3fe2a0d6e1debe7c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -384,16 +382,16 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/melike/.gra
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/264b5ec00316d9e848336429cbc702b2/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/40cbba4137f7d528183001b4ad80b083/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/40cbba4137f7d528183001b4ad80b083/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/14a5e669d54cca6def822ea2ece510b1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/14a5e669d54cca6def822ea2ece510b1/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d16a21b066c2828db2188aad892c69e5/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/d16a21b066c2828db2188aad892c69e5/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac9e637b533cfe54705d606f3858e76e/core-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ac9e637b533cfe54705d606f3858e76e/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/ffb1e8e1283a18284911781c2ed74afe/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/ffb1e8e1283a18284911781c2ed74afe/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0288dcce7f2d7b8ad250f45a979254f1/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0288dcce7f2d7b8ad250f45a979254f1/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/12b6fdddb33dc015055333f14a332379/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/12b6fdddb33dc015055333f14a332379/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/05d379239bb75a3a2dbb68eefd99b1f6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/05d379239bb75a3a2dbb68eefd99b1f6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/68e840371bad4608c238cdd9ecc5a17d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/68e840371bad4608c238cdd9ecc5a17d/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
@@ -404,12 +402,12 @@ MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/melike/.grad
 MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/0706c75c6ebcbe0bcd2df1b1a2f21fc1/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/c50f8bf427cac1880b364808cc516cad/jetified-firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/c50f8bf427cac1880b364808cc516cad/jetified-firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/05d379239bb75a3a2dbb68eefd99b1f6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/05d379239bb75a3a2dbb68eefd99b1f6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/84999563376e976410768e8a06fd369f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/84999563376e976410768e8a06fd369f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e3a5e31c3aa9fdaee64c2ca0d6be0606/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e3a5e31c3aa9fdaee64c2ca0d6be0606/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e12df958a715f43ac922f54e7acc6d0b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e12df958a715f43ac922f54e7acc6d0b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/91eaf82a98826032c62f67c1fbab2d96/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/91eaf82a98826032c62f67c1fbab2d96/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/7d7abacbfb27f2bdb62eaf837c031345/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
@@ -422,6 +420,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/ec1a099529c2cee81985a3cbd3c3deb7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/3cdb76676b5ac3189207a1f79805495b/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/3cdb76676b5ac3189207a1f79805495b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e12df958a715f43ac922f54e7acc6d0b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/e12df958a715f43ac922f54e7acc6d0b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:5:5-7:41
 MERGED from [com.huawei.hms:push:4.0.3.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/0fea8a91c8b6b43f3c82b10dd8b31955/jetified-push-4.0.3.301/AndroidManifest.xml:5:5-7:41
 MERGED from [com.huawei.hms:opendevice:4.0.1.301] /Users/melike/.gradle/caches/transforms-2/files-2.1/9d3c2e4d2a19d15b68cea721824409c1/jetified-opendevice-4.0.1.301/AndroidManifest.xml:5:5-7:41
@@ -453,17 +453,17 @@ INJECTED from /Users/melike/Desktop/sample-shopping-android/app/src/main/Android
 		ADDED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/melike/Desktop/sample-shopping-android/app/src/main/AndroidManifest.xml
 activity#com.visilabs.inApp.VisilabsInAppActivity
-ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:18:9-20:73
+ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:18:9-20:73
 	android:theme
-		ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:20:13-70
+		ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:20:13-70
 	android:name
-		ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:19:13-68
+		ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:19:13-68
 activity#com.visilabs.inApp.TemplateActivity
-ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:21:9-23:73
+ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:21:9-23:73
 	android:theme
-		ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:23:13-70
+		ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:23:13-70
 	android:name
-		ADDED from [com.visilabs.android:visilabs-android:betaV4.0.1] /Users/melike/.gradle/caches/transforms-2/files-2.1/9f0689437d409ebffc1b9ae4840fdeb2/jetified-visilabs-android-betaV4.0.1/AndroidManifest.xml:22:13-63
+		ADDED from [com.visilabs.android:visilabs-android:betaV4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5aa0f316d67b31c8f002ec90ec933020/jetified-visilabs-android-betaV4.1.0/AndroidManifest.xml:22:13-63
 receiver#euromsg.com.euromobileandroid.notification.carousel.CarouselEventReceiver
 ADDED from [com.euromsg:euromsg:4.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/6ce8cc9c6737ad245ef6d033448cd2de/jetified-euromsg-4.1.0/AndroidManifest.xml:15:9-18:39
 	android:enabled
@@ -541,13 +541,13 @@ ADDED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/cache
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:20.2.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/aa93937f215037a2bd8bd357179a0a47/jetified-firebase-iid-20.2.3/AndroidManifest.xml:42:25-78
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/174efafabf6e7ea53741a2253769d5a1/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/deb221ce4ac8f5c1c366d3f62abadc4b/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/melike/.gradle/caches/transforms-2/files-2.1/9e435c253e6543650ee41b8a07b6f822/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
 	android:value
@@ -571,11 +571,11 @@ ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/ca
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/20312f773df57a48aac67e10d08a5240/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/5744c6726a2b0954bca3b30845f38032/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/cf8d7e0bd4f1dfc827f227d6f057fa5f/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
 ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/2e967b8ac00e8a477f49ee477a8d0e09/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/melike/.gradle/caches/transforms-2/files-2.1/9418c9c9f7c3dda80a7a465ccb8193c8/jetified-transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40

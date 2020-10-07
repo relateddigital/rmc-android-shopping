@@ -4,7 +4,7 @@
             "outputFile": "/Users/melike/Desktop/sample-shopping-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/4596a99f617f588e2e060c7ebaf32270/appcompat-1.1.0/res/values-v26/values-v26.xml",
+                    "source": "/Users/melike/.gradle/caches/transforms-2/files-2.1/bee7b21ab7892c2da7bebfdaf4e53f7e/appcompat-1.2.0/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
